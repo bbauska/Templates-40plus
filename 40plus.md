@@ -1744,67 +1744,36 @@ class="black-white"
 
 ```
  *,
->
 *::after,
->
 *::before {
->
 margin: 0;
->
 padding: 0;
->
 box-sizing: border-box;
->
 }
->
 .container {
->
 display: flex;
->
 flex-flow: column nowrap;
->
 justify-content: space-around;
->
 align-items: center;
->
 min-height: 100vh;
->
 width: 100vw;
->
 background: #c8c7c7;
->
 font-family: "Roboto", sans-serif;
->
 }
->
 .box {
->
 width: 90%;
->
 height: 60%;
->
 display: flex;
->
 flex-flow: row nowrap;
->
 justify-content: space-around;
->
 align-items: center;
->
 margin: 1rem 0;
->
 }
->
 .box img {
->
 width: 48%;
->
 }
->
 .black-white {
->
 filter: grayscale(100%);
->
 }
 ```
 
@@ -1814,38 +1783,22 @@ filter: grayscale(100%);
 
 ```
 <!DOCTYPE html>
->
 <html lang="en">
->
 <head>
->
 <link rel="stylesheet" href="style.css" />
->
 </head>
->
 <body>
->
 <div class="container">
->
 <div class="box">
->
 <img src="./girl-with-guitar.jpeg" alt="img" />
 <img
->
 src="./girl-with-guitar.jpeg"
->
 alt="img"
->
 class="nineties-effect"
->
 />
->
 </div>
->
 </div>
->
 </body>
->
 </html>
 ```
 
@@ -1853,67 +1806,36 @@ class="nineties-effect"
 
 ```
 *,
->
 *::after,
->
 *::before {
->
 margin: 0;
->
 padding: 0;
->
 box-sizing: border-box;
->
 }
->
 .container {
->
 display: flex;
->
 flex-flow: column nowrap;
->
 justify-content: space-around;
->
 align-items: center;
->
 min-height: 100vh;
->
 width: 100vw;
->
 background: #c8c7c7;
->
 font-family: "Roboto", sans-serif;
->
 }
->
 .box {
->
 width: 90%;
->
 height: 60%;
->
 display: flex;
->
 flex-flow: row nowrap;
->
 justify-content: space-around;
->
 align-items: center;
->
 margin: 1rem 0;
->
 }
->
 .box img {
->
 width: 48%;
->
 }
->
 .nineties-effect {
->
 filter: sepia(100%);
->
 }
 ```
 
@@ -1925,38 +1847,22 @@ filter: sepia(100%);
 
 ```
 <!DOCTYPE html>
->
 <html lang="en">
->
 <head>
->
 <link rel="stylesheet" href="style.css" />
->
 </head>
->
 <body>
->
 <div class="container">
->
 <div class="box">
->
 <img src="./girl-with-guitar.jpeg" alt="img" />
 <img
->
 src="./girl-with-guitar.jpeg"
->
 alt="img"
->
 class="hover-effect"
->
 />
->
 </div>
->
 </div>
->
 </body>
->
 </html>
 ```
 
@@ -1964,69 +1870,37 @@ class="hover-effect"
 
 ```
 *,
->
 *::after,
->
 *::before {
->
 margin: 0;
->
 padding: 0;
->
 box-sizing: border-box;
->
 }
->
 .container {
->
 display: flex;
->
 flex-flow: column nowrap;
->
 justify-content: space-around;
->
 align-items: center;
->
 min-height: 100vh;
->
 width: 100vw;
->
 background: #fafafa;
->
 /* background: #c8c7c7; */
->
 font-family: "Roboto", sans-serif;
->
 }
->
 .box {
->
 width: 90%;
->
 height: 60%;
->
 display: flex;
->
 flex-flow: row nowrap;
->
 justify-content: space-around;
->
 align-items: center;
->
 margin: 1rem 0;
->
 }
->
 .box img {
->
 width: 48%;
->
 }
->
 .hover-effect:hover {
->
 filter: grayscale(100%);
->
 }
 ```
 
@@ -2041,63 +1915,34 @@ filter: grayscale(100%);
 
 ```
 <!DOCTYPE html>
->
 <html lang="en">
->
 <head>
->
 <title>Document</title>
->
 <link rel="stylesheet" href="styles.css" />
->
 </head>
->
 <body>
->
 <!-- Tabbed image gallery -->
->
 <div class="tabbed-gallery">
->
 <div class="btn-row">
->
 <button class="btn active-btn">New York</button>
->
 <button class="btn">Honolulu</button>
->
 <button class="btn">Seoul</button>
->
 </div>
->
 <div id="New York" class="city">
->
 <img src="./img/new-york.jpeg" alt="New York" class="" />
->
 <p>New York City</p>
->
 </div>
->
 <div id="Honolulu" class="city hidden-city">
->
 <img src="./img/honolulu.jpeg" alt="Honolulu" class="" />
->
 <p>Honolulu</p>
->
 </div>
->
 <div id="Seoul" class="city hidden-city">
->
 <img src="./img/seoul.jpeg" alt="Seoul" class="" />
->
 <p>Seoul</p>
->
 </div>
->
 </div>
->
 <script src="index.js"></script>
->
 </body>
->
 </html>
 ```
 
@@ -2106,125 +1951,65 @@ filter: grayscale(100%);
 ```
 @import
 url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
->
 * {
->
 padding: 0;
->
 margin: 0;
->
 box-sizing: border-box;
->
 font-family: "DynaPuff", cursive, sans-serif;
->
 }
->
 body {
->
 width: 100vw;
->
 }
->
 .tabbed-gallery {
->
 width: 80vw;
->
 margin: 6rem auto 0;
->
 }
->
 .btn-row {
->
 display: grid;
->
 grid-template-columns: repeat(3, 8rem);
->
 grid-template-rows: 3.5rem;
->
 column-gap: 8rem;
->
 justify-content: center;
->
 padding: 2rem auto;
->
 background-color: #1d1d27;
->
 }
->
 .btn {
->
 padding: 4px 2px;
->
 font-size: 1.2rem;
->
 border: none;
->
 outline: none;
->
 transition: all 300ms ease;
->
 }
->
 .btn:hover {
->
 cursor: pointer;
->
 }
->
 .active-btn {
->
 color: #fafafa;
->
 background-color: #4343f5;
->
 }
->
 .city {
->
 width: 100%;
->
 height: 75vh;
->
 position: relative;
->
 display: block;
->
 transition: all 400ms ease;
->
 }
->
 .hidden-city {
->
 display: none;
->
 }
->
 .city img {
->
 width: 100%;
->
 height: 100%;
->
 image-rendering: optimizeQuality;
->
 }
->
 .city p {
->
 position: absolute;
->
 bottom: 15%;
->
 left: 50%;
->
 transform: translate(-50%);
->
 text-align: center;
->
 color: #fafafa;
->
 font-size: 3.5rem;
->
 }
 ```
 
@@ -2232,16 +2017,11 @@ font-size: 3.5rem;
 
 ```
 const buttons = document.querySelectorAll(".btn");
->
 const cities = document.querySelectorAll(".city");
->
 function showCity(e, index) {
->
 //adds the hidden-city class to all image element and removes the
 active-btn class from all buttons
->
 for (let i = 0; i < cities.length; i++) {
->
 cities[i].classList.add("hidden-city");
 buttons[i].classList.remove("active-btn");
 }
@@ -2265,31 +2045,18 @@ showCity(e, index);
 
 ```
 <!DOCTYPE html>
->
 <html lang="en">
->
 <head>
->
 <title>Document</title>
->
 <link rel="stylesheet" href="styles.css" />
->
 </head>
->
 <body>
->
 <!-- Tabbed image gallery -->
->
 <div class="tabbed-gallery">
->
 <div class="btn-row">
->
 <button class="btn active-btn">
->
 <svg viewBox="0 0 24 24">
->
 <path
->
 d="M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66
 3.6,6.58L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06
 12.57,2.18L20.47,6.62C20.66,6.72 20.82,6.88
@@ -2301,81 +2068,47 @@ d="M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66
 2,10.96M12,4.15V4.15L12,10.85V10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V12.69L14,15.59C13.67,15.77
 13.3,15.76
 13,15.6V19.29L19,15.91M13.85,13.36L20.13,9.73L19.55,8.72L13.27,12.35L13.85,13.36Z"
->
 />
->
 </svg>
->
 </button>
->
 <button class="btn">
->
 <svg viewBox="0 0 24 24">
->
 <path
->
 d="M3,4A2,2 0 0,0 1,6V17H3A3,3 0 0,0 6,20A3,3 0 0,0 9,17H15A3,3 0 0,0
 18,20A3,3 0 0,0
 21,17H23V12L20,8H17V4M10,6L14,10L10,14V11H4V9H10M17,9.5H19.5L21.47,12H17M6,15.5A1.5,1.5
 0 0,1 7.5,17A1.5,1.5 0 0,1 6,18.5A1.5,1.5 0 0,1 4.5,17A1.5,1.5 0 0,1
 6,15.5M18,15.5A1.5,1.5 0 0,1 19.5,17A1.5,1.5 0 0,1 18,18.5A1.5,1.5 0
 0,1 16.5,17A1.5,1.5 0 0,1 18,15.5Z"
->
 />
->
 </svg>
->
 </button>
->
 <button class="btn">
->
 <svg viewBox="0 0 24 24">
->
 <path
->
 d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4
 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0
 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0
 12,2M11,17H13V11H11V17Z"
->
 />
->
 </svg>
->
 </button>
->
 </div>
->
 <div class="card">
->
 <h2 class="">Delivery</h2>
->
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
->
 </div>
->
 <div class="card hidden-card">
->
 <h2 class="">Shipping</h2>
->
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
->
 </div>
->
 <div class="card hidden-card">
->
 <h2 class="">Policy</h2>
->
 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
->
 </div>
->
 </div>
->
 <script src="index.js"></script>
->
 </body>
->
 </html>
 ```
 
@@ -2384,207 +2117,106 @@ d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4
 ```
 @import
 "https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
->
 * {
->
 padding: 0;
->
 margin: 0;
->
 box-sizing: border-box;
->
 font-family: "Raleway", sans-serif;
->
 }
->
 body {
->
 width: 100vw;
->
 background: #fff;
->
 }
->
 .tabbed-gallery {
->
 width: 80vw;
->
 height: 75vh;
->
 background-color: #e7e7e7;
->
 color: #1d1d27;
->
 margin: 6rem auto 0;
->
 }
->
 .btn-row {
->
 display: grid;
->
 grid-template-columns: repeat(3, 8rem);
->
 grid-template-rows: 3.5rem;
->
 column-gap: 10rem;
->
 justify-content: center;
->
 padding: 4rem auto !important;
->
 border-bottom: 2px solid #1d1d27;
->
 }
->
 .btn {
->
 border: none;
->
 outline: none;
->
 background-color: #fff;
->
 }
->
 .btn svg {
->
 width: 3rem;
->
 height: 2.2rem;
->
 }
->
 .btn:hover {
->
 cursor: pointer;
->
 }
->
 .active-btn svg {
->
 fill: #4343f5;
->
 }
->
 .card {
->
 width: 100%;
->
 height: 70vh;
->
 position: relative;
->
 display: block;
->
 }
->
 h2 {
->
 text-align: center;
->
 color: #4343f5;
->
 padding: 40px 0 20px 0;
->
 margin-top: 10rem;
->
 font-size: 4rem;
->
 }
->
 .card p {
->
 /* position: absolute;
->
 top: 30%;
->
 left: 50%;
->
 transform: translate(-50%); */
->
 margin: 0 auto;
->
 width: 60%;
->
 text-align: center;
->
 color: #1d1d27;
->
 font-size: 1.5rem;
->
 }
->
 .animate h2,
->
 .animate p {
->
 -webkit-animation-name: content;
->
 animation-name: content;
->
 -webkit-animation-direction: normal;
->
 animation-direction: normal;
->
 -webkit-animation-duration: 0.5s;
->
 animation-duration: 0.5s;
->
 -webkit-animation-timing-function: ease-in-out;
->
 animation-timing-function: ease-in-out;
->
 -webkit-animation-iteration-count: 1;
->
 animation-iteration-count: 1;
->
 line-height: 1.4;
->
 }
->
 .hidden-card {
->
 display: none;
->
 }
->
 /* text slide up animation */
->
 @-webkit-keyframes content {
->
 from {
->
 opacity: 0;
->
 transform: translateY(30%);
->
 }
->
 to {
->
 opacity: 1;
->
 transform: translateY(0%);
->
 }
->
 }
->
 @keyframes content {
->
 from {
->
 opacity: 0;
->
 transform: translateY(30%);
->
 }
->
 to {
->
 opacity: 1;
->
 transform: translateY(0%);
 }
 }
@@ -2626,73 +2258,39 @@ showCard(e, index);
 
 ```
 <!DOCTYPE html>
->
 <html lang="en">
->
 <head>
->
 <link rel="stylesheet" href="style.css" />
->
 </head>
->
 <body>
->
 <div class="carousel">
->
 <!-- Photo 1 -->
->
 <div class="card">
->
 <img src="./img/1.jpeg" alt="New York" class="" />
->
 <p>1/4</p>
->
 </div>
->
 <!-- Photo 2 -->
->
 <div class="card hidden-card">
->
 <img src="./img/2.jpeg" alt="New York" class="" />
->
 <p>2/4</p>
->
 </div>
->
 <!-- Photo 3 -->
->
 <div class="card hidden-card">
->
 <img src="./img/3.jpeg" alt="New York" class="" />
->
 <p>3/4</p>
->
 </div>
->
 <!-- Photo 4 -->
->
 <div class="card hidden-card">
->
 <img src="./img/4.jpeg" alt="New York" class="" />
->
 <p>4/4</p>
->
 </div>
->
 <div class="navigation">
->
 <button class="prev nav-btn"><</button>
->
 <button class="next nav-btn">></button>
->
 </div>
->
 </div>
->
 </body>
->
 <script src="index.js"></script>
->
 </html>
 ```
 
@@ -3150,6 +2748,7 @@ textarea {
   line-height: 2rem;
   letter-spacing: 0.1rem;
 }
+```
 
 #### JavaScript
 
