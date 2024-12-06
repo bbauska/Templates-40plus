@@ -115,7 +115,7 @@ Jump to a Template
 </p>
 <!-- ![](./images/image003.png){width="1.7239588801399826in" height="1.7239588801399826in"} -->
 
-#### The HTML
+#### HTML
 
 ```
 <div class="container">
@@ -166,8 +166,15 @@ Jump to a Template
 ```
 
 ### Third example
-
-![](./images/image004.png){width="5.947916666666667in" height="1.09375in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image004.png"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image004.png){width="5.947916666666667in" height="1.09375in"} -->
 
 #### HTML
 
@@ -177,26 +184,26 @@ Jump to a Template
     <ul class="bar">
       <li><a href="#" class="active">Home</a></li>
       <li class="has-dropdown">
-      <a href="#">About</a>
-    <ul class="dropdown">
-<li><a href="#">The Company</a></li>
- <li><a href="#">The Team</a></li>
- </ul>
- </li>
- <li class="has-dropdown">
- <a href="#">Contact</a>
- <ul class="dropdown">
- <li><a href="#">Email</a></li>
- <li><a href="#">Phone</a></li>
- </ul>
- </li>
- <li><a href="#">Careers</a></li>
- </ul>
-</nav>
+        <a href="#">About</a>
+        <ul class="dropdown">
+          <li><a href="#">The Company</a></li>
+          <li><a href="#">The Team</a></li>
+        </ul>
+      </li>
+      <li class="has-dropdown">
+        <a href="#">Contact</a>
+        <ul class="dropdown">
+          <li><a href="#">Email</a></li>
+          <li><a href="#">Phone</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Careers</a></li>
+    </ul>
+  </nav>
 </div>
 ```
 
-## CSS
+#### CSS
 
 ```
 * {
@@ -245,34 +252,31 @@ Jump to a Template
 }
 ```
 
-# Fourth example
+### Fourth example
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image005.png"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image005.png){width="6.5in" height="0.5833333333333334in"} -->
 
-![](./images/image005.png){width="6.5in" height="0.5833333333333334in"}
-
-## HTML
+#### HTML
 
 ```
-> <div class="container">
->
-> <ul class="breadcrumb">
->
-> <li><a href="#" class="active">Home</a></li>
->
-> <li><span>></span></li>
->
-> <li><a href="#">Products</a></li>
->
-> <li><span>></span></li>
->
-> <li><a href="#">Computers</a></li>
->
-> <li><span>></span></li>
->
-> <li><a href="#" class="unique">Laptops</a></li>
->
-> </ul>
->
-> </div>
+<div class="container">
+  <ul class="breadcrumb">
+    <li><a href="#" class="active">Home</a></li>
+    <li><span>></span></li>
+    <li><a href="#">Products</a></li>
+    <li><span>></span></li>
+    <li><a href="#">Computers</a></li>
+    <li><span>></span></li>
+    <li><a href="#" class="unique">Laptops</a></li>
+  </ul>
+</div>
 ```
 
 #### CSS
@@ -306,11 +310,18 @@ Jump to a Template
 }
 ```
 
-# 3 Button Transition Templates
+## 3 Button Transition Templates
 
-Example #1
-
-![](./images/image006.png){width="6.5in" height="1.5138888888888888in"}
+### Example #1
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image006.png"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image006.png){width="6.5in" height="1.5138888888888888in"} -->
 
 #### HTML
 
@@ -322,26 +333,38 @@ Example #1
 
 ```
 .first {
-padding: 10px;
-font-size: 20px;
-background-color: black;
-color: white;
-border: none;
-cursor: pointer;
-box-shadow: 0 0 0 #ccc;
-transition: box-shadow 300ms, color 300ms;
+  padding: 10px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 0 #ccc;
+  transition: box-shadow 300ms, color 300ms;
 }
 .first:hover {
-color: yellow;
-box-shadow: 10px 10px 0 rgb(219, 219, 219);
+  color: yellow;
+  box-shadow: 10px 10px 0 rgb(219, 219, 219);
 }
 ```
 
+### Example #2
 
-# Example #2
-
-![](./images/image007.png){width="2.557292213473316in" height="1.1195516185476815in"}
-![](./images/image008.png){width="4.078125546806649in" height="1.9507917760279965in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07/08.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image007.png"
+  style="width:25%"
+  title=""
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image008.png"
+  style="width:40%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image007.png){width="2.557292213473316in" height="1.1195516185476815in"} -->
+<!-- ![](./images/image008.png){width="4.078125546806649in" height="1.9507917760279965in"} -->
 
 #### HTML
 
@@ -353,32 +376,50 @@ box-shadow: 10px 10px 0 rgb(219, 219, 219);
 
 ```
 .second {
-width: 180px;
-height: 60px;
-display: flex;
-align-items: center;
- justify-content: center;
-font-size: 20px;
-background-color: rgb(85, 16, 16);
-color: white;
-border: none;
-cursor: pointer;
-transition: transform 150ms,
-font-size 150ms, color 150ms;
+  width: 180px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  background-color: rgb(85, 16, 16);
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: transform 150ms,
+  font-size 150ms, color 150ms;
 }
 .second:active {
-background-color: rgb(63, 5, 5);
-font-size: 12px;
-transform: scale(1.3);
-box-shadow: 5px 5px 10px rgb(119, 119, 119);
+  background-color: rgb(63, 5, 5);
+  font-size: 12px;
+  transform: scale(1.3);
+  box-shadow: 5px 5px 10px rgb(119, 119, 119);
 }
 ```
 
-# Example #3
+### Example #3
 
-![](./images/image009.png){width="2.0833333333333335in" height="0.53125in"}
-![](./images/image010.png){width="2.2604166666666665in" height="0.7291666666666666in"}
-![](./images/image011.png){width="1.8854166666666667in" height="0.6354166666666666in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09/10/11.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image009.png"
+  style="width:20%"
+  title=""
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image010.png"
+  style="width:20%"
+  title=""
+  alt="." />
+&nbsp;&nbsp;&nbsp;
+<img src="./images/image011.png"
+  style="width:20%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image009.png){width="2.0833333333333335in" height="0.53125in"} -->
+<!-- ![](./images/image010.png){width="2.2604166666666665in" height="0.7291666666666666in"} -->
+<!-- ![](./images/image011.png){width="1.8854166666666667in" height="0.6354166666666666in"} -->
 
 #### HTML
 
@@ -390,33 +431,33 @@ box-shadow: 5px 5px 10px rgb(119, 119, 119);
 
 ```
 .third {
-border: none;
-background: none;
-width: 120px;
-height: 40px;
- cursor: pointer;
- position: relative;
- color: black;
- transition: color 500ms;
- overflow: hidden;
+  border: none;
+  background: none;
+  width: 120px;
+  height: 40px;
+  cursor: pointer;
+  position: relative;
+  color: black;
+  transition: color 500ms;
+  overflow: hidden;
 }
 .third::after {
-content: "";
-background-color: #333;
-color: white;
-position: absolute;
-left: 0;
- bottom: -40px;
- width: 100%;
- height: 100%;
-transition: bottom 500ms;
-z-index: -1;
+  content: "";
+  background-color: #333;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  width: 100%;
+  height: 100%;
+  transition: bottom 500ms;
+  z-index: -1;
 }
 .third:hover {
-color: white;
+  color: white;
 }
 .third:hover::after {
-bottom: 0;
+  bottom: 0;
 }
 ```
 
@@ -425,8 +466,15 @@ bottom: 0;
 ### Templates
 
 ### Template #1
-
-![](./images/image012.png){width="6.5in" height="1.7916666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image012.png"
+  style="width:65%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image012.png){width="6.5in" height="1.7916666666666667in"} -->
 
 #### HTML
 
@@ -526,8 +574,15 @@ margin: 0 3px 0 10px;
 ```
 
 ### Template #2
-
-![](./images/image013.png){width="5.0in" height="3.170138888888889in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image013.png"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image013.png){width="5.0in" height="3.170138888888889in"} -->
 
 #### HTML
 
@@ -635,9 +690,16 @@ border-radius: 5px;
 }
 ```
 
-# Template #2
-
-![](./images/image014.png){width="3.0in" height="5.776042213473316in"}
+### Template #2
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image014.png"
+  style="width:30%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image014.png){width="3.0in" height="5.776042213473316in"} -->
 
 #### HTML
 
@@ -754,14 +816,33 @@ cursor: pointer;
 ### 1 Lightbox Modal Element 
 
 ### Template
-
-#### Template
-
-![](./images/image015.png){width="5.598958880139983in" height="0.7088429571303587in"}
-
-![](./images/image016.png){width="5.619792213473316in" height="3.2331813210848646in"}
-
-![](./images/image017.png){width="5.692708880139983in" height="3.270278871391076in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image015.png"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image015.png){width="5.598958880139983in" height="0.7088429571303587in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image016.png"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image016.png){width="5.619792213473316in" height="3.2331813210848646in"} -->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image017.png"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image017.png){width="5.692708880139983in" height="3.270278871391076in"} -->
 
 #### HTML
 
@@ -948,9 +1029,15 @@ modalImages[prevId].classList.remove("active")
 []{#kdb634vxe28v .anchor}
 
 ### Example #1
-
-![](./images/image018.png){width="3.0416666666666665in"
-height="1.1041666666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image018.png"
+  style="width:30%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image018.png){width="3.0416666666666665in" height="1.1041666666666667in"} -->
 
 #### HTML
 
@@ -1002,8 +1089,15 @@ visibility: visible;
 ```
 
 ### Example #2
-
-![](./images/image019.png){width="4.0625in" height="1.03125in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image019.png"
+  style="width:40%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image019.png){width="4.0625in" height="1.03125in"} -->
 
 #### HTML
 
@@ -1051,8 +1145,15 @@ visibility: visible;
 ```
 
 ### Example #3
-
-![](./images/image020.png){width="3.0104166666666665in" height="1.1979166666666667in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image020.png"
+  style="width:30%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image020.png){width="3.0104166666666665in" height="1.1979166666666667in"} -->
 
 #### HTML
 
@@ -1067,75 +1168,50 @@ visibility: visible;
 #### CSS
 
 ```
-> .tooltip {
->
-> position: relative;
->
-> display: inline-block;
->
-> }
->
-> .tooltip-text {
->
-> padding: 6px;
->
-> background-color: #333;
->
-> color: white;
->
-> font-size: 12px;
->
-> position: absolute;
->
-> border-radius: 5px;
->
-> width: 100px;
->
-> text-align: center;
->
-> display: inline-block;
->
-> bottom: -46px;
->
-> left: -10px;
->
-> visibility: hidden;
->
-> }
->
-> .tooltip-text::after {
->
-> content: "";
->
-> position: absolute;
->
-> left: 10px;
->
-> top: -5px;
->
-> width: 0;
->
-> height: 0;
->
-> border-left: 7px solid transparent;
->
-> border-right: 7px solid transparent;
->
-> border-bottom: 10px solid #333;
->
-> }
->
-> .tooltip:hover .tooltip-text {
->
-> visibility: visible;
->
-> }
+.tooltip {
+position: relative;
+display: inline-block;
+}
+.tooltip-text {
+padding: 6px;
+background-color: #333;
+color: white;
+font-size: 12px;
+position: absolute;
+border-radius: 5px;
+width: 100px;
+text-align: center;
+display: inline-block;
+bottom: -46px;
+left: -10px;
+visibility: hidden;
+}
+.tooltip-text::after {
+content: "";
+position: absolute;
+left: 10px;
+top: -5px;
+width: 0;
+height: 0;
+border-left: 7px solid transparent;
+border-right: 7px solid transparent;
+border-bottom: 10px solid #333;
+}
+.tooltip:hover .tooltip-text {
+visibility: visible;
+}
 ```
 
 ### Example #4
-
-![](./images/image021.png){width="3.3958333333333335in"
-height="0.75in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image021.png"
+  style="width:30%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image021.png){width="3.3958333333333335in" height="0.75in"} -->
 
 #### HTML
 
@@ -1149,80 +1225,54 @@ height="0.75in"}
 #### CSS
 
 ```
-> body {
->
-> margin: 60px 130px;
->
-> }
->
-> .tooltip {
->
-> position: relative;
->
-> display: inline-block;
->
-> }
->
-> .tooltip-text {
->
-> padding: 6px;
->
-> background-color: #333;
->
-> color: white;
->
-> font-size: 12px;
->
-> position: absolute;
->
-> border-radius: 5px;
->
-> width: 100px;
->
-> text-align: center;
->
-> left: -120px;
->
-> bottom: -11px;
->
-> visibility: hidden;
->
-> }
->
-> .tooltip-text::after {
->
-> content: "";
->
-> position: absolute;
->
-> right: -5px;
->
-> top: 12px;
->
-> width: 0;
->
-> height: 0;
->
-> border-top: 7px solid transparent;
->
-> border-bottom: 7px solid transparent;
->
-> border-left: 10px solid #333;
->
-> }
->
-> .tooltip:hover .tooltip-text {
->
-> visibility: visible;
->
-> }
+body {
+  margin: 60px 130px;
+}
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip-text {
+  padding: 6px;
+  background-color: #333;
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  left: -120px;
+  bottom: -11px;
+  visibility: hidden;
+}
+.tooltip-text::after {
+  content: "";
+  position: absolute;
+  right: -5px;
+  top: 12px;
+  width: 0;
+  height: 0;
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 10px solid #333;
+}
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
 ```
 
-### 2 Progress Bar Templates
+## 2 Progress Bar Templates
 
 ### Example #1
-
-## ![](./images/image022.png){width="5.375in" height="0.875in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image022.png"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image022.png){width="5.375in" height="0.875in"} -->
 
 #### HTML
 
@@ -1233,2477 +1283,1829 @@ height="0.75in"}
 #### CSS
 
 ```
-> .first {
->
-> border-radius: 0;
->
-> border: 2px solid purple;
->
-> height: 30px;
->
-> width: 250px;
->
-> }
->
-> .first::-webkit-progress-bar {
->
-> background-color: white;
->
-> }
->
-> .first::-webkit-progress-value {
->
-> background-color: purple;
->
-> }
-
-# 
+.first {
+border-radius: 0;
+border: 2px solid purple;
+height: 30px;
+width: 250px;
+}
+.first::-webkit-progress-bar {
+background-color: white;
+}
+.first::-webkit-progress-value {
+background-color: purple;
+}
+```
 
 ### Example #2
 
-## HTML
+#### HTML
 
-> <progress class="second" value="40" max="100"></progress>
+```
+<progress class="second" value="40" max="100"></progress>
+```
 
-![](./images/image023.png){width="5.083333333333333in"
-height="0.7395833333333334in"}
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image023.png"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image023.png){width="5.083333333333333in" height="0.7395833333333334in"} -->
 
-> <progress class="second" value="80" max="100"></progress>
+```
+<progress class="second" value="80" max="100"></progress>
+```
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image024.png"
+  style="width:50%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image024.png){width="5.0in" height="0.78125in"} -->
 
-![](./images/image024.png){width="5.0in" height="0.78125in"}
+#### CSS
 
-## CSS
+```
+.second {
+  overflow: hidden;
+  border-radius: 15px;
+  height: 30px;
+  width: 200px;
+}
+.second::-webkit-progress-bar {
+  border-radius: 15px;
+  background-color: white;
+  border: 1px solid #ccc;
+}
+.second::-webkit-progress-value {
+  background-image: linear-gradient(
+    90deg,
+    hsl(0deg 91% 46%) 25px,
+    hsl(41deg 100% 50%) 50px,
+    hsl(63deg 100% 37%) 75px,
+    rgb(85, 255, 0) 100px
+  );
+  border-radius: 15px;
+}
+```
 
-> .second {
->
-> overflow: hidden;
->
-> border-radius: 15px;
->
-> height: 30px;
->
-> width: 200px;
->
-> }
->
-> .second::-webkit-progress-bar {
->
-> border-radius: 15px;
->
-> background-color: white;
->
-> border: 1px solid #ccc;
->
-> }
->
-> .second::-webkit-progress-value {
->
-> background-image: linear-gradient(
->
-> 90deg,
->
-> hsl(0deg 91% 46%) 25px,
->
-> hsl(41deg 100% 50%) 50px,
->
-> hsl(63deg 100% 37%) 75px,
->
-> rgb(85, 255, 0) 100px
->
-> );
->
-> border-radius: 15px;
->
-> }
-
-# 2 CSS Accordian Templates
+## 2 CSS Accordian Templates
 
 ### Example #1: 
 
 ### Accordion
-
 ### Using Only CSS and HTML
 
-## HTML
+#### HTML
 
-> <!DOCTYPE html>
->
-> <html lang="en">
->
-> <head>
->
-> <title>Document</title>
->
-> <link rel="stylesheet" href="style.css" />
->
-> </head>
->
-> <body>
->
-> <div class="container">
->
-> <h1>CSS Accordion</h1>
->
-> <div class="accordion">
->
-> <div class="tab">
->
-> <input type="checkbox" id="tab1" />
->
-> <label class="tab-label" for="tab1">Lorem ipsum 1</label>
->
-> <div class="tab-content">
->
-> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
->
-> perferendis eligendi fugit quaerat consequatur fuga pariatur
->
-> ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
->
-> tempore itaque quas excepturi.
->
-> </div>
->
-> </div>
->
-> <div class="tab">
->
-> <input type="checkbox" id="tab2" />
->
-> <label class="tab-label" for="tab2">Lorem ipsum 2</label>
->
-> <div class="tab-content">
->
-> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
->
-> perferendis eligendi fugit quaerat consequatur fuga pariatur
->
-> ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
->
-> tempore itaque quas excepturi.
->
-> </div>
->
-> </div>
->
-> <div class="tab">
->
-> <input type="checkbox" id="tab3" />
->
-> <label class="tab-label" for="tab3">Lorem ipsum 3</label>
->
-> <div class="tab-content">
->
-> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
->
-> perferendis eligendi fugit quaerat consequatur fuga pariatur
->
-> ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
->
-> tempore itaque quas excepturi.
->
-> </div>
->
-> </div>
->
-> </div>
->
-> </div>
->
-> </body>
->
-> </html>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+<h1>CSS Accordion</h1>
+<div class="accordion">
+<div class="tab">
+<input type="checkbox" id="tab1" />
+<label class="tab-label" for="tab1">Lorem ipsum 1</label>
+<div class="tab-content">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+perferendis eligendi fugit quaerat consequatur fuga pariatur
+ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
+tempore itaque quas excepturi.
+</div>
+</div>
+<div class="tab">
+<input type="checkbox" id="tab2" />
+<label class="tab-label" for="tab2">Lorem ipsum 2</label>
+<div class="tab-content">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+perferendis eligendi fugit quaerat consequatur fuga pariatur
+ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
+tempore itaque quas excepturi.
+</div>
+</div>
+<div class="tab">
+<input type="checkbox" id="tab3" />
+<label class="tab-label" for="tab3">Lorem ipsum 3</label>
+<div class="tab-content">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+perferendis eligendi fugit quaerat consequatur fuga pariatur
+ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
+tempore itaque quas excepturi.
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+```
 
-## CSS
+#### CSS
 
-> @import
-> "https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
->
-> body {
->
-> color: #2c3e50;
->
-> background: #ecf0f1;
->
-> width: 100vw;
->
-> padding: 0 1em 1em;
->
-> font-family: "Raleway", sans-serif;
->
-> }
->
-> h1 {
->
-> margin: 0;
->
-> line-height: 2;
->
-> text-align: center;
->
-> }
->
-> input {
->
-> position: absolute;
->
-> opacity: 0;
->
-> z-index: -1;
->
-> }
->
-> /* Accordion styles */
->
-> .accordion {
->
-> border-radius: 8px;
->
-> width: 70vw;
->
-> margin: 5rem auto 0;
->
-> overflow: hidden;
->
-> padding: 2rem 2.5rem;
->
-> background-color: white;
->
-> box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.15);
->
-> }
->
-> .tab {
->
-> width: 100%;
->
-> color: #1a252f;
->
-> overflow: hidden;
->
-> margin: 1rem 0;
->
-> }
->
-> .tab-label {
->
-> display: flex;
->
-> justify-content: space-between;
->
-> padding: 1rem;
->
-> background: white;
->
-> font-weight: bold;
->
-> cursor: pointer;
->
-> }
->
-> .tab-label:hover {
->
-> background: #dce7ea;
->
-> }
->
-> .tab-label::after {
->
-> content: "❯";
->
-> width: 1em;
->
-> height: 1em;
->
-> text-align: center;
->
-> transition: all 0.35s;
->
-> }
->
-> .tab-content {
->
-> max-height: 0;
->
-> padding: 0 1em;
->
-> line-height: 2rem;
->
-> color: #1a252f;
->
-> background: white;
->
-> transition: all 0.35s;
->
-> }
->
-> .tab-close {
->
-> display: flex;
->
-> justify-content: flex-end;
->
-> padding: 1em;
->
-> font-size: 0.75em;
->
-> background: #2c3e50;
->
-> cursor: pointer;
->
-> }
->
-> .tab-close:hover {
->
-> background: #dce7ea;
->
-> }
->
-> input:checked + .tab-label {
->
-> background: #dce7ea;
->
-> }
->
-> input:checked + .tab-label::after {
->
-> transform: rotate(90deg);
->
-> }
->
-> input:checked ~ .tab-content {
->
-> max-height: 100vh;
->
-> padding: 1rem;
->
-> }
+```
+@import
+"https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
+body {
+color: #2c3e50;
+background: #ecf0f1;
+width: 100vw;
+padding: 0 1em 1em;
+font-family: "Raleway", sans-serif;
+}
+h1 {
+margin: 0;
+line-height: 2;
+text-align: center;
+}
+input {
+position: absolute;
+opacity: 0;
+z-index: -1;
+}
+/* Accordion styles */
+.accordion {
+border-radius: 8px;
+width: 70vw;
+margin: 5rem auto 0;
+overflow: hidden;
+padding: 2rem 2.5rem;
+background-color: white;
+box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.15);
+}
+.tab {
+width: 100%;
+color: #1a252f;
+overflow: hidden;
+margin: 1rem 0;
+}
+.tab-label {
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+background: white;
+font-weight: bold;
+cursor: pointer;
+}
+.tab-label:hover {
+background: #dce7ea;
+}
+.tab-label::after {
+content: "❯";
+width: 1em;
+height: 1em;
+text-align: center;
+transition: all 0.35s;
+}
+.tab-content {
+max-height: 0;
+padding: 0 1em;
+line-height: 2rem;
+color: #1a252f;
+background: white;
+transition: all 0.35s;
+}
+.tab-close {
+display: flex;
+justify-content: flex-end;
+padding: 1em;
+font-size: 0.75em;
+background: #2c3e50;
+cursor: pointer;
+}
+.tab-close:hover {
+background: #dce7ea;
+}
+input:checked + .tab-label {
+background: #dce7ea;
+}
+input:checked + .tab-label::after {
+transform: rotate(90deg);
+}
+input:checked ~ .tab-content {
+max-height: 100vh;
+padding: 1rem;
+}
+```
 
-# Example #2: 
+### Example #2: 
 
-# Accordion 
+### Accordion 
 
-# Using CSS and HTML and JavaScript
+### Using CSS and HTML and JavaScript
 
-## HTML
+#### HTML
 
-> <!DOCTYPE html>
->
-> <html lang="en">
->
-> <head>
->
-> <title>Document</title>
->
-> <link rel="stylesheet" href="style.css" />
->
-> </head>
->
-> <body>
->
-> <div class="container">
->
-> <h1>CSS Accordion With Javascript</h1>
->
-> <div class="accordion">
->
-> <div class="tab">
->
-> <input type="checkbox" id="tab1" />
->
-> <label class="tab-label" for="tab1">Lorem ipsum 1</label>
->
-> <div class="tab-content">
->
-> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
->
-> perferendis eligendi fugit quaerat consequatur fuga pariatur
->
-> ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
->
-> tempore itaque quas excepturi.
->
-> </div>
->
-> </div>
->
-> <div class="tab">
->
-> <input type="checkbox" id="tab2" />
->
-> <label class="tab-label" for="tab2">Lorem ipsum 2</label>
->
-> <div class="tab-content">
->
-> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
->
-> perferendis eligendi fugit quaerat consequatur fuga pariatur
->
-> ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
->
-> tempore itaque quas excepturi.
->
-> </div>
->
-> </div>
->
-> <div class="tab">
->
-> <input type="checkbox" id="tab3" />
->
-> <label class="tab-label" for="tab3">Lorem ipsum 3</label>
->
-> <div class="tab-content">
->
-> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
->
-> perferendis eligendi fugit quaerat consequatur fuga pariatur
->
-> ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
->
-> tempore itaque quas excepturi.
->
-> </div>
->
-> </div>
->
-> </div>
->
-> </div>
->
-> <script src="index.js"></script>
->
-> </body>
->
-> </html>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+<h1>CSS Accordion With Javascript</h1>
+<div class="accordion">
+<div class="tab">
+<input type="checkbox" id="tab1" />
+<label class="tab-label" for="tab1">Lorem ipsum 1</label>
+<div class="tab-content">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+perferendis eligendi fugit quaerat consequatur fuga pariatur
+ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
+tempore itaque quas excepturi.
+</div>
+</div>
+<div class="tab">
+<input type="checkbox" id="tab2" />
+<label class="tab-label" for="tab2">Lorem ipsum 2</label>
+<div class="tab-content">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+perferendis eligendi fugit quaerat consequatur fuga pariatur
+ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
+tempore itaque quas excepturi.
+</div>
+</div>
+<div class="tab">
+<input type="checkbox" id="tab3" />
+<label class="tab-label" for="tab3">Lorem ipsum 3</label>
+<div class="tab-content">
+Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque
+perferendis eligendi fugit quaerat consequatur fuga pariatur
+ratione, enim mollitia aut! Nobis maxime voluptas harum labore quos,
+tempore itaque quas excepturi.
+</div>
+</div>
+</div>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
+```
 
-## CSS
+#### CSS
 
-> @import
-> "https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
->
-> body {
->
-> color: #2c3e50;
->
-> background: #ecf0f1;
->
-> width: 100vw;
->
-> padding: 0 1em 1em;
->
-> font-family: "Raleway", sans-serif;
->
-> }
->
-> h1 {
->
-> margin: 0;
->
-> line-height: 2;
->
-> text-align: center;
->
-> color: #ff6873;
->
-> }
->
-> input {
->
-> position: absolute;
->
-> opacity: 0;
->
-> z-index: -1;
->
-> }
->
-> /* Accordion styles */
->
-> .accordion {
->
-> border-radius: 8px;
->
-> width: 70vw;
->
-> margin: 5rem auto 0;
->
-> overflow: hidden;
->
-> padding: 2rem 2.5rem;
->
-> background-color: white;
->
-> box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.15);
->
-> }
->
-> .tab {
->
-> width: 100%;
->
-> color: #1a252f;
->
-> overflow: hidden;
->
-> margin: 1.4rem 0;
->
-> }
->
-> .tab-label {
->
-> display: flex;
->
-> justify-content: space-between;
->
-> padding: 1rem;
->
-> font-size: 1.2rem;
->
-> color: #ff6873;
->
-> font-weight: bold;
->
-> cursor: pointer;
->
-> }
->
-> .tab-label::after {
->
-> content: "❯";
->
-> width: 1em;
->
-> height: 1em;
->
-> color: #ff6873;
->
-> text-align: center;
->
-> transition: all 0.35s;
->
-> }
->
-> .tab-content {
->
-> max-height: 0;
->
-> padding: 0 1em;
->
-> line-height: 2rem;
->
-> color: #1a252f;
->
-> background: white;
->
-> transition: all 0.35s;
->
-> }
->
-> .tab-close {
->
-> display: flex;
->
-> justify-content: flex-end;
->
-> padding: 1em;
->
-> font-size: 0.75em;
->
-> background: #2c3e50;
->
-> cursor: pointer;
->
-> }
->
-> .open-tab .tab-label::after {
->
-> transform: rotate(90deg);
->
-> }
->
-> .open-tab .tab-content {
->
-> max-height: 100vh;
->
-> padding: 1rem;
->
-> }
+```
+@import
+"https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
+body {
+color: #2c3e50;
+background: #ecf0f1;
+width: 100vw;
+padding: 0 1em 1em;
+font-family: "Raleway", sans-serif;
+}
+h1 {
+margin: 0;
+line-height: 2;
+text-align: center;
+color: #ff6873;
+}
+input {
+position: absolute;
+opacity: 0;
+z-index: -1;
+}
+/* Accordion styles */
+.accordion {
+border-radius: 8px;
+width: 70vw;
+margin: 5rem auto 0;
+overflow: hidden;
+padding: 2rem 2.5rem;
+background-color: white;
+box-shadow: 0 4px 4px 2px rgba(0, 0, 0, 0.15);
+}
+.tab {
+width: 100%;
+color: #1a252f;
+overflow: hidden;
+margin: 1.4rem 0;
+}
+.tab-label {
+display: flex;
+justify-content: space-between;
+padding: 1rem;
+font-size: 1.2rem;
+color: #ff6873;
+font-weight: bold;
+cursor: pointer;
+}
+.tab-label::after {
+content: "❯";
+width: 1em;
+height: 1em;
+color: #ff6873;
+text-align: center;
+transition: all 0.35s;
+}
+.tab-content {
+max-height: 0;
+padding: 0 1em;
+line-height: 2rem;
+color: #1a252f;
+background: white;
+transition: all 0.35s;
+}
+.tab-close {
+display: flex;
+justify-content: flex-end;
+padding: 1em;
+font-size: 0.75em;
+background: #2c3e50;
+cursor: pointer;
+}
+.open-tab .tab-label::after {
+transform: rotate(90deg);
+}
+.open-tab .tab-content {
+max-height: 100vh;
+padding: 1rem;
+>
+}
+```
 
-## JavaScript
+#### JavaScript
 
-> const accordions = document.getElementsByClassName("tab");
->
-> for (const accordion of accordions) {
->
-> accordion.addEventListener("click", function (e) {
->
-> e.preventDefault();
->
-> accordion.classList.toggle("open-tab");
->
-> });
->
-> }
+```
+const accordions = document.getElementsByClassName("tab");
+for (const accordion of accordions) {
+accordion.addEventListener("click", function (e) {
+e.preventDefault();
+accordion.classList.toggle("open-tab");
+});
+}
+```
 
-# 4 CSS Effects Templates
+### 4 CSS Effects Templates
 
 []{#qjxam0b6i3lz .anchor}Template #1:
 
-Opacity
+### Opacity
+
+#### HTML
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+<div class="box">
+<img src="./girl-with-guitar.jpeg" alt="img" />
+<img
+src="./girl-with-guitar.jpeg"
+alt="img"
+class="translucent"
+/>
+</div>
+</div>
+</body>
+</html>
+```
+
+#### CSS
+
+```
+*,
+*::after,
+*::before {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container {
+display: flex;
+flex-flow: column nowrap;
+justify-content: space-around;
+align-items: center;
+min-height: 100vh;
+width: 100vw;
+background: #c8c7c7;
+font-family: "Roboto", sans-serif;
+}
+.box {
+width: 90%;
+height: 60%;
+display: flex;
+flex-flow: row nowrap;
+justify-content: space-around;
+align-items: center;
+margin: 1rem 0;
+}
+.box img {
+width: 48%;
+}
+.translucent {
+filter: opacity(35%);
+}
+```
 
-## HTML
+### Template #2:
 
-> <!DOCTYPE html>
->
-> <html lang="en">
->
-> <head>
->
-> <link rel="stylesheet" href="style.css" />
->
-> </head>
->
-> <body>
->
-> <div class="container">
->
-> <div class="box">
->
-> <img src="./girl-with-guitar.jpeg" alt="img" />
-> <img
->
-> src="./girl-with-guitar.jpeg"
->
-> alt="img"
->
-> class="translucent"
->
-> />
->
-> </div>
->
-> </div>
->
-> </body>
->
-> </html>
-
-## CSS
-
-> *,
->
-> *::after,
->
-> *::before {
->
-> margin: 0;
->
-> padding: 0;
->
-> box-sizing: border-box;
->
-> }
->
-> .container {
->
-> display: flex;
->
-> flex-flow: column nowrap;
->
-> justify-content: space-around;
->
-> align-items: center;
->
-> min-height: 100vh;
->
-> width: 100vw;
->
-> background: #c8c7c7;
->
-> font-family: "Roboto", sans-serif;
->
-> }
->
-> .box {
->
-> width: 90%;
->
-> height: 60%;
->
-> display: flex;
->
-> flex-flow: row nowrap;
->
-> justify-content: space-around;
->
-> align-items: center;
->
-> margin: 1rem 0;
->
-> }
->
-> .box img {
->
-> width: 48%;
->
-> }
->
-> .translucent {
->
-> filter: opacity(35%);
->
-> }
-
-#  
-
-# Template #2:
+### Grayscale
 
-# Grayscale
+#### HTML
 
-## HTML
-
-> <!DOCTYPE html>
->
-> <html lang="en">
->
-> <head>
->
-> <link rel="stylesheet" href="style.css" />
->
-> </head>
->
-> <body>
->
-> <div class="container">
->
-> <div class="box">
->
-> <img src="./girl-with-guitar.jpeg" alt="img" />
-> <img
->
-> src="./girl-with-guitar.jpeg"
->
-> alt="img"
->
-> class="black-white"
->
-> />
->
-> </div>
->
-> </div>
->
-> </body>
->
-> </html>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+<div class="box">
+<img src="./girl-with-guitar.jpeg" alt="img" />
+<img
+src="./girl-with-guitar.jpeg"
+alt="img"
+class="black-white"
+/>
+</div>
+</div>
+</body>
+</html>
+```
 
-## CSS
+#### CSS
 
-> *,
+```
+ *,
 >
-> *::after,
+*::after,
 >
-> *::before {
+*::before {
 >
-> margin: 0;
+margin: 0;
 >
-> padding: 0;
+padding: 0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .container {
+.container {
 >
-> display: flex;
+display: flex;
 >
-> flex-flow: column nowrap;
+flex-flow: column nowrap;
 >
-> justify-content: space-around;
+justify-content: space-around;
 >
-> align-items: center;
+align-items: center;
 >
-> min-height: 100vh;
+min-height: 100vh;
 >
-> width: 100vw;
+width: 100vw;
 >
-> background: #c8c7c7;
+background: #c8c7c7;
 >
-> font-family: "Roboto", sans-serif;
+font-family: "Roboto", sans-serif;
 >
-> }
+}
 >
-> .box {
+.box {
 >
-> width: 90%;
+width: 90%;
 >
-> height: 60%;
+height: 60%;
 >
-> display: flex;
+display: flex;
 >
-> flex-flow: row nowrap;
+flex-flow: row nowrap;
 >
-> justify-content: space-around;
+justify-content: space-around;
 >
-> align-items: center;
+align-items: center;
 >
-> margin: 1rem 0;
+margin: 1rem 0;
 >
-> }
+}
 >
-> .box img {
+.box img {
 >
-> width: 48%;
+width: 48%;
 >
-> }
+}
 >
-> .black-white {
+.black-white {
 >
-> filter: grayscale(100%);
+filter: grayscale(100%);
 >
-> }
-
-#  
+}
+```
 
-# Template #3: 
+### Template #3: 
 
-# Sepia
+### Sepia
 
-> <!DOCTYPE html>
+```
+<!DOCTYPE html>
 >
-> <html lang="en">
+<html lang="en">
 >
-> <head>
+<head>
 >
-> <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style.css" />
 >
-> </head>
+</head>
 >
-> <body>
+<body>
 >
-> <div class="container">
+<div class="container">
 >
-> <div class="box">
+<div class="box">
 >
-> <img src="./girl-with-guitar.jpeg" alt="img" />
-> <img
+<img src="./girl-with-guitar.jpeg" alt="img" />
+<img
 >
-> src="./girl-with-guitar.jpeg"
+src="./girl-with-guitar.jpeg"
 >
-> alt="img"
+alt="img"
 >
-> class="nineties-effect"
+class="nineties-effect"
 >
-> />
+/>
 >
-> </div>
+</div>
 >
-> </div>
+</div>
 >
-> </body>
+</body>
 >
-> </html>
+</html>
+```
 
-## CSS
+#### CSS
 
-> *,
+```
+*,
 >
-> *::after,
+*::after,
 >
-> *::before {
+*::before {
 >
-> margin: 0;
+margin: 0;
 >
-> padding: 0;
+padding: 0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .container {
+.container {
 >
-> display: flex;
+display: flex;
 >
-> flex-flow: column nowrap;
+flex-flow: column nowrap;
 >
-> justify-content: space-around;
+justify-content: space-around;
 >
-> align-items: center;
+align-items: center;
 >
-> min-height: 100vh;
+min-height: 100vh;
 >
-> width: 100vw;
+width: 100vw;
 >
-> background: #c8c7c7;
+background: #c8c7c7;
 >
-> font-family: "Roboto", sans-serif;
+font-family: "Roboto", sans-serif;
 >
-> }
+}
 >
-> .box {
+.box {
 >
-> width: 90%;
+width: 90%;
 >
-> height: 60%;
+height: 60%;
 >
-> display: flex;
+display: flex;
 >
-> flex-flow: row nowrap;
+flex-flow: row nowrap;
 >
-> justify-content: space-around;
+justify-content: space-around;
 >
-> align-items: center;
+align-items: center;
 >
-> margin: 1rem 0;
+margin: 1rem 0;
 >
-> }
+}
 >
-> .box img {
+.box img {
 >
-> width: 48%;
+width: 48%;
 >
-> }
+}
 >
-> .nineties-effect {
+.nineties-effect {
 >
-> filter: sepia(100%);
+filter: sepia(100%);
 >
-> }
+}
+```
 
-#  
+### Template #4: 
 
-# Template #4: 
+### Hover
 
-# Hover
+#### HTML
 
-## HTML
-
-> <!DOCTYPE html>
+```
+<!DOCTYPE html>
 >
-> <html lang="en">
+<html lang="en">
 >
-> <head>
+<head>
 >
-> <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style.css" />
 >
-> </head>
+</head>
 >
-> <body>
+<body>
 >
-> <div class="container">
+<div class="container">
 >
-> <div class="box">
+<div class="box">
 >
-> <img src="./girl-with-guitar.jpeg" alt="img" />
-> <img
+<img src="./girl-with-guitar.jpeg" alt="img" />
+<img
 >
-> src="./girl-with-guitar.jpeg"
+src="./girl-with-guitar.jpeg"
 >
-> alt="img"
+alt="img"
 >
-> class="hover-effect"
+class="hover-effect"
 >
-> />
+/>
 >
-> </div>
+</div>
 >
-> </div>
+</div>
 >
-> </body>
+</body>
 >
-> </html>
+</html>
+```
 
-## CSS
+#### CSS
 
-> *,
+```
+*,
 >
-> *::after,
+*::after,
 >
-> *::before {
+*::before {
 >
-> margin: 0;
+margin: 0;
 >
-> padding: 0;
+padding: 0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> }
+}
 >
-> .container {
+.container {
 >
-> display: flex;
+display: flex;
 >
-> flex-flow: column nowrap;
+flex-flow: column nowrap;
 >
-> justify-content: space-around;
+justify-content: space-around;
 >
-> align-items: center;
+align-items: center;
 >
-> min-height: 100vh;
+min-height: 100vh;
 >
-> width: 100vw;
+width: 100vw;
 >
-> background: #fafafa;
+background: #fafafa;
 >
-> /* background: #c8c7c7; */
+/* background: #c8c7c7; */
 >
-> font-family: "Roboto", sans-serif;
+font-family: "Roboto", sans-serif;
 >
-> }
+}
 >
-> .box {
+.box {
 >
-> width: 90%;
+width: 90%;
 >
-> height: 60%;
+height: 60%;
 >
-> display: flex;
+display: flex;
 >
-> flex-flow: row nowrap;
+flex-flow: row nowrap;
 >
-> justify-content: space-around;
+justify-content: space-around;
 >
-> align-items: center;
+align-items: center;
 >
-> margin: 1rem 0;
+margin: 1rem 0;
 >
-> }
+}
 >
-> .box img {
+.box img {
 >
-> width: 48%;
+width: 48%;
 >
-> }
+}
 >
-> .hover-effect:hover {
+.hover-effect:hover {
 >
-> filter: grayscale(100%);
+filter: grayscale(100%);
 >
-> }
+}
+```
 
-# 2 CSS Tab Navigation Templates
+### 2 CSS Tab Navigation Templates
 
-Template #1:
+### Template #1:
 
-CSS Tab Navigation
+### CSS Tab Navigation
+### with Animation Effects
 
-with Animation Effects
+#### HTML
 
-## HTML
-
-> <!DOCTYPE html>
+```
+<!DOCTYPE html>
 >
-> <html lang="en">
+<html lang="en">
 >
-> <head>
+<head>
 >
-> <title>Document</title>
+<title>Document</title>
 >
-> <link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="styles.css" />
 >
-> </head>
+</head>
 >
-> <body>
+<body>
 >
-> <!-- Tabbed image gallery -->
+<!-- Tabbed image gallery -->
 >
-> <div class="tabbed-gallery">
+<div class="tabbed-gallery">
 >
-> <div class="btn-row">
+<div class="btn-row">
 >
-> <button class="btn active-btn">New York</button>
+<button class="btn active-btn">New York</button>
 >
-> <button class="btn">Honolulu</button>
+<button class="btn">Honolulu</button>
 >
-> <button class="btn">Seoul</button>
+<button class="btn">Seoul</button>
 >
-> </div>
+</div>
 >
-> <div id="New York" class="city">
+<div id="New York" class="city">
 >
-> <img src="./img/new-york.jpeg" alt="New York" class="" />
+<img src="./img/new-york.jpeg" alt="New York" class="" />
 >
-> <p>New York City</p>
+<p>New York City</p>
 >
-> </div>
+</div>
 >
-> <div id="Honolulu" class="city hidden-city">
+<div id="Honolulu" class="city hidden-city">
 >
-> <img src="./img/honolulu.jpeg" alt="Honolulu" class="" />
+<img src="./img/honolulu.jpeg" alt="Honolulu" class="" />
 >
-> <p>Honolulu</p>
+<p>Honolulu</p>
 >
-> </div>
+</div>
 >
-> <div id="Seoul" class="city hidden-city">
+<div id="Seoul" class="city hidden-city">
 >
-> <img src="./img/seoul.jpeg" alt="Seoul" class="" />
+<img src="./img/seoul.jpeg" alt="Seoul" class="" />
 >
-> <p>Seoul</p>
+<p>Seoul</p>
 >
-> </div>
+</div>
 >
-> </div>
+</div>
 >
-> <script src="index.js"></script>
+<script src="index.js"></script>
 >
-> </body>
+</body>
 >
-> </html>
+</html>
+```
 
-## CSS
+#### CSS
 
-> @import
-> url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+```
+@import
+url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
 >
-> * {
+* {
 >
-> padding: 0;
+padding: 0;
 >
-> margin: 0;
+margin: 0;
 >
-> box-sizing: border-box;
+box-sizing: border-box;
 >
-> font-family: "DynaPuff", cursive, sans-serif;
+font-family: "DynaPuff", cursive, sans-serif;
 >
-> }
+}
 >
-> body {
+body {
 >
-> width: 100vw;
+width: 100vw;
 >
-> }
+}
 >
-> .tabbed-gallery {
+.tabbed-gallery {
 >
-> width: 80vw;
+width: 80vw;
 >
-> margin: 6rem auto 0;
+margin: 6rem auto 0;
 >
-> }
+}
 >
-> .btn-row {
+.btn-row {
 >
-> display: grid;
+display: grid;
 >
-> grid-template-columns: repeat(3, 8rem);
+grid-template-columns: repeat(3, 8rem);
 >
-> grid-template-rows: 3.5rem;
+grid-template-rows: 3.5rem;
 >
-> column-gap: 8rem;
+column-gap: 8rem;
 >
-> justify-content: center;
+justify-content: center;
 >
-> padding: 2rem auto;
+padding: 2rem auto;
 >
-> background-color: #1d1d27;
+background-color: #1d1d27;
 >
-> }
+}
 >
-> .btn {
+.btn {
 >
-> padding: 4px 2px;
+padding: 4px 2px;
 >
-> font-size: 1.2rem;
+font-size: 1.2rem;
 >
-> border: none;
+border: none;
 >
-> outline: none;
+outline: none;
 >
-> transition: all 300ms ease;
+transition: all 300ms ease;
 >
-> }
+}
 >
-> .btn:hover {
+.btn:hover {
 >
-> cursor: pointer;
+cursor: pointer;
 >
-> }
+}
 >
-> .active-btn {
+.active-btn {
 >
-> color: #fafafa;
+color: #fafafa;
 >
-> background-color: #4343f5;
+background-color: #4343f5;
 >
-> }
+}
 >
-> .city {
+.city {
 >
-> width: 100%;
+width: 100%;
 >
-> height: 75vh;
+height: 75vh;
 >
-> position: relative;
+position: relative;
 >
-> display: block;
+display: block;
 >
-> transition: all 400ms ease;
+transition: all 400ms ease;
 >
-> }
+}
 >
-> .hidden-city {
+.hidden-city {
 >
-> display: none;
+display: none;
 >
-> }
+}
 >
-> .city img {
+.city img {
 >
-> width: 100%;
+width: 100%;
 >
-> height: 100%;
+height: 100%;
 >
-> image-rendering: optimizeQuality;
+image-rendering: optimizeQuality;
 >
-> }
+}
 >
-> .city p {
+.city p {
 >
-> position: absolute;
+position: absolute;
 >
-> bottom: 15%;
+bottom: 15%;
 >
-> left: 50%;
+left: 50%;
 >
-> transform: translate(-50%);
+transform: translate(-50%);
 >
-> text-align: center;
+text-align: center;
 >
-> color: #fafafa;
+color: #fafafa;
 >
-> font-size: 3.5rem;
+font-size: 3.5rem;
 >
-> }
+}
+```
 
-## JavaScript
+#### JavaScript
 
-> const buttons = document.querySelectorAll(".btn");
->
-> const cities = document.querySelectorAll(".city");
->
-> function showCity(e, index) {
->
-> //adds the hidden-city class to all image element and removes the
-> active-btn class from all buttons
->
-> for (let i = 0; i < cities.length; i++) {
->
-> cities[i].classList.add("hidden-city");
->
-> buttons[i].classList.remove("active-btn");
->
-> }
->
-> //add the active-btn class to the clicked button
->
-> e.target.classList.add("active-btn");
->
-> // pick the right city and make it visible
->
-> cities[index].classList.remove("hidden-city");
->
-> }
+```
+const buttons = document.querySelectorAll(".btn");
 >
-> buttons.forEach((button, index) => {
+const cities = document.querySelectorAll(".city");
 >
-> button.addEventListener("click", (e) => {
+function showCity(e, index) {
 >
-> showCity(e, index);
+//adds the hidden-city class to all image element and removes the
+active-btn class from all buttons
 >
-> });
+for (let i = 0; i < cities.length; i++) {
 >
-> });
+cities[i].classList.add("hidden-city");
+buttons[i].classList.remove("active-btn");
+}
+//add the active-btn class to the clicked button
+e.target.classList.add("active-btn");
+// pick the right city and make it visible
+cities[index].classList.remove("hidden-city");
+}
+buttons.forEach((button, index) => {
+button.addEventListener("click", (e) => {
+showCity(e, index);
+});
+});
+```
 
-# 
+### Template #2: 
 
-# 
+### CSS Tab Navigation with a Simple Tabbed Image Gallery
 
-# Template #2: 
+#### HTML
 
-# CSS Tab Navigation with a Simple Tabbed Image Gallery
-
-## HTML
-
-> <!DOCTYPE html>
+```
+<!DOCTYPE html>
 >
-> <html lang="en">
+<html lang="en">
 >
-> <head>
+<head>
 >
-> <title>Document</title>
+<title>Document</title>
 >
-> <link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="styles.css" />
 >
-> </head>
+</head>
 >
-> <body>
+<body>
 >
-> <!-- Tabbed image gallery -->
+<!-- Tabbed image gallery -->
 >
-> <div class="tabbed-gallery">
+<div class="tabbed-gallery">
 >
-> <div class="btn-row">
+<div class="btn-row">
 >
-> <button class="btn active-btn">
+<button class="btn active-btn">
 >
-> <svg viewBox="0 0 24 24">
+<svg viewBox="0 0 24 24">
 >
-> <path
+<path
 >
-> d="M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66
-> 3.6,6.58L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06
-> 12.57,2.18L20.47,6.62C20.66,6.72 20.82,6.88
-> 20.91,7.08L22.36,9.6C22.64,10.08 22.47,10.69
-> 22,10.96L21,11.54V16.5C21,16.88 20.79,17.21
-> 20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22
-> 11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88
-> 3,16.5V10.96C2.7,11.13 2.32,11.14
-> 2,10.96M12,4.15V4.15L12,10.85V10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V12.69L14,15.59C13.67,15.77
-> 13.3,15.76
-> 13,15.6V19.29L19,15.91M13.85,13.36L20.13,9.73L19.55,8.72L13.27,12.35L13.85,13.36Z"
+d="M2,10.96C1.5,10.68 1.35,10.07 1.63,9.59L3.13,7C3.24,6.8 3.41,6.66
+3.6,6.58L11.43,2.18C11.59,2.06 11.79,2 12,2C12.21,2 12.41,2.06
+12.57,2.18L20.47,6.62C20.66,6.72 20.82,6.88
+20.91,7.08L22.36,9.6C22.64,10.08 22.47,10.69
+22,10.96L21,11.54V16.5C21,16.88 20.79,17.21
+20.47,17.38L12.57,21.82C12.41,21.94 12.21,22 12,22C11.79,22
+11.59,21.94 11.43,21.82L3.53,17.38C3.21,17.21 3,16.88
+3,16.5V10.96C2.7,11.13 2.32,11.14
+2,10.96M12,4.15V4.15L12,10.85V10.85L17.96,7.5L12,4.15M5,15.91L11,19.29V12.58L5,9.21V15.91M19,15.91V12.69L14,15.59C13.67,15.77
+13.3,15.76
+13,15.6V19.29L19,15.91M13.85,13.36L20.13,9.73L19.55,8.72L13.27,12.35L13.85,13.36Z"
 >
-> />
+/>
 >
-> </svg>
+</svg>
 >
-> </button>
+</button>
 >
-> <button class="btn">
+<button class="btn">
 >
-> <svg viewBox="0 0 24 24">
+<svg viewBox="0 0 24 24">
 >
-> <path
+<path
 >
-> d="M3,4A2,2 0 0,0 1,6V17H3A3,3 0 0,0 6,20A3,3 0 0,0 9,17H15A3,3 0 0,0
-> 18,20A3,3 0 0,0
-> 21,17H23V12L20,8H17V4M10,6L14,10L10,14V11H4V9H10M17,9.5H19.5L21.47,12H17M6,15.5A1.5,1.5
-> 0 0,1 7.5,17A1.5,1.5 0 0,1 6,18.5A1.5,1.5 0 0,1 4.5,17A1.5,1.5 0 0,1
-> 6,15.5M18,15.5A1.5,1.5 0 0,1 19.5,17A1.5,1.5 0 0,1 18,18.5A1.5,1.5 0
-> 0,1 16.5,17A1.5,1.5 0 0,1 18,15.5Z"
+d="M3,4A2,2 0 0,0 1,6V17H3A3,3 0 0,0 6,20A3,3 0 0,0 9,17H15A3,3 0 0,0
+18,20A3,3 0 0,0
+21,17H23V12L20,8H17V4M10,6L14,10L10,14V11H4V9H10M17,9.5H19.5L21.47,12H17M6,15.5A1.5,1.5
+0 0,1 7.5,17A1.5,1.5 0 0,1 6,18.5A1.5,1.5 0 0,1 4.5,17A1.5,1.5 0 0,1
+6,15.5M18,15.5A1.5,1.5 0 0,1 19.5,17A1.5,1.5 0 0,1 18,18.5A1.5,1.5 0
+0,1 16.5,17A1.5,1.5 0 0,1 18,15.5Z"
 >
-> />
+/>
 >
-> </svg>
+</svg>
 >
-> </button>
+</button>
 >
-> <button class="btn">
+<button class="btn">
 >
-> <svg viewBox="0 0 24 24">
+<svg viewBox="0 0 24 24">
 >
-> <path
+<path
 >
-> d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4
-> 12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0
-> 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0
-> 12,2M11,17H13V11H11V17Z"
+d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4
+12,4C16.41,4 20,7.59 20,12C20,16.41 16.41,20 12,20M12,2A10,10 0 0,0
+2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0
+12,2M11,17H13V11H11V17Z"
 >
-> />
+/>
 >
-> </svg>
+</svg>
 >
-> </button>
+</button>
 >
-> </div>
+</div>
 >
-> <div class="card">
+<div class="card">
 >
-> <h2 class="">Delivery</h2>
+<h2 class="">Delivery</h2>
 >
-> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 >
-> </div>
+</div>
 >
-> <div class="card hidden-card">
+<div class="card hidden-card">
 >
-> <h2 class="">Shipping</h2>
+<h2 class="">Shipping</h2>
 >
-> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 >
-> </div>
+</div>
 >
-> <div class="card hidden-card">
+<div class="card hidden-card">
 >
-> <h2 class="">Policy</h2>
+<h2 class="">Policy</h2>
 >
-> <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
 >
-> </div>
+</div>
 >
-> </div>
+</div>
 >
-> <script src="index.js"></script>
+<script src="index.js"></script>
 >
-> </body>
+</body>
 >
-> </html>
+</html>
+```
 
-## CSS
+#### CSS
 
-> @import
-> "https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
->
-> * {
+```
+@import
+"https://fonts.googleapis.com/css?family=Montserrat:400,700|Raleway:300,400";
 >
-> padding: 0;
+* {
 >
-> margin: 0;
+padding: 0;
 >
-> box-sizing: border-box;
+margin: 0;
 >
-> font-family: "Raleway", sans-serif;
+box-sizing: border-box;
 >
-> }
+font-family: "Raleway", sans-serif;
 >
-> body {
+}
 >
-> width: 100vw;
+body {
 >
-> background: #fff;
+width: 100vw;
 >
-> }
+background: #fff;
 >
-> .tabbed-gallery {
+}
 >
-> width: 80vw;
+.tabbed-gallery {
 >
-> height: 75vh;
+width: 80vw;
 >
-> background-color: #e7e7e7;
+height: 75vh;
 >
-> color: #1d1d27;
+background-color: #e7e7e7;
 >
-> margin: 6rem auto 0;
+color: #1d1d27;
 >
-> }
+margin: 6rem auto 0;
 >
-> .btn-row {
+}
 >
-> display: grid;
+.btn-row {
 >
-> grid-template-columns: repeat(3, 8rem);
+display: grid;
 >
-> grid-template-rows: 3.5rem;
+grid-template-columns: repeat(3, 8rem);
 >
-> column-gap: 10rem;
+grid-template-rows: 3.5rem;
 >
-> justify-content: center;
+column-gap: 10rem;
 >
-> padding: 4rem auto !important;
+justify-content: center;
 >
-> border-bottom: 2px solid #1d1d27;
+padding: 4rem auto !important;
 >
-> }
+border-bottom: 2px solid #1d1d27;
 >
-> .btn {
+}
 >
-> border: none;
+.btn {
 >
-> outline: none;
+border: none;
 >
-> background-color: #fff;
+outline: none;
 >
-> }
+background-color: #fff;
 >
-> .btn svg {
+}
 >
-> width: 3rem;
+.btn svg {
 >
-> height: 2.2rem;
+width: 3rem;
 >
-> }
+height: 2.2rem;
 >
-> .btn:hover {
+}
 >
-> cursor: pointer;
+.btn:hover {
 >
-> }
+cursor: pointer;
 >
-> .active-btn svg {
+}
 >
-> fill: #4343f5;
+.active-btn svg {
 >
-> }
+fill: #4343f5;
 >
-> .card {
+}
 >
-> width: 100%;
+.card {
 >
-> height: 70vh;
+width: 100%;
 >
-> position: relative;
+height: 70vh;
 >
-> display: block;
+position: relative;
 >
-> }
+display: block;
 >
-> h2 {
+}
 >
-> text-align: center;
+h2 {
 >
-> color: #4343f5;
+text-align: center;
 >
-> padding: 40px 0 20px 0;
+color: #4343f5;
 >
-> margin-top: 10rem;
+padding: 40px 0 20px 0;
 >
-> font-size: 4rem;
+margin-top: 10rem;
 >
-> }
+font-size: 4rem;
 >
-> .card p {
+}
 >
-> /* position: absolute;
+.card p {
 >
-> top: 30%;
+/* position: absolute;
 >
-> left: 50%;
+top: 30%;
 >
-> transform: translate(-50%); */
+left: 50%;
 >
-> margin: 0 auto;
+transform: translate(-50%); */
 >
-> width: 60%;
+margin: 0 auto;
 >
-> text-align: center;
+width: 60%;
 >
-> color: #1d1d27;
+text-align: center;
 >
-> font-size: 1.5rem;
+color: #1d1d27;
 >
-> }
+font-size: 1.5rem;
 >
-> .animate h2,
+}
 >
-> .animate p {
+.animate h2,
 >
-> -webkit-animation-name: content;
+.animate p {
 >
-> animation-name: content;
+-webkit-animation-name: content;
 >
-> -webkit-animation-direction: normal;
+animation-name: content;
 >
-> animation-direction: normal;
+-webkit-animation-direction: normal;
 >
-> -webkit-animation-duration: 0.5s;
+animation-direction: normal;
 >
-> animation-duration: 0.5s;
+-webkit-animation-duration: 0.5s;
 >
-> -webkit-animation-timing-function: ease-in-out;
+animation-duration: 0.5s;
 >
-> animation-timing-function: ease-in-out;
+-webkit-animation-timing-function: ease-in-out;
 >
-> -webkit-animation-iteration-count: 1;
+animation-timing-function: ease-in-out;
 >
-> animation-iteration-count: 1;
+-webkit-animation-iteration-count: 1;
 >
-> line-height: 1.4;
+animation-iteration-count: 1;
 >
-> }
+line-height: 1.4;
 >
-> .hidden-card {
+}
 >
-> display: none;
+.hidden-card {
 >
-> }
+display: none;
 >
-> /* text slide up animation */
+}
 >
-> @-webkit-keyframes content {
+/* text slide up animation */
 >
-> from {
+@-webkit-keyframes content {
 >
-> opacity: 0;
+from {
 >
-> transform: translateY(30%);
+opacity: 0;
 >
-> }
+transform: translateY(30%);
 >
-> to {
+}
 >
-> opacity: 1;
+to {
 >
-> transform: translateY(0%);
+opacity: 1;
 >
-> }
+transform: translateY(0%);
 >
-> }
+}
 >
-> @keyframes content {
+}
 >
-> from {
+@keyframes content {
 >
-> opacity: 0;
+from {
 >
-> transform: translateY(30%);
+opacity: 0;
 >
-> }
+transform: translateY(30%);
 >
-> to {
+}
 >
-> opacity: 1;
+to {
 >
-> transform: translateY(0%);
+opacity: 1;
 >
-> }
->
-> }
+transform: translateY(0%);
+}
+}
+```
 
-## JavaScript
+#### JavaScript
 
-> const buttons = document.querySelectorAll(".btn");
->
-> const cards = document.querySelectorAll(".card");
->
-> function showCard(e, index) {
->
-> //adds the hidden-city class to all city element and removes the
-> active-btn class from all buttons
->
-> for (let i = 0; i < cards.length; i++) {
->
-> cards[i].classList.add("hidden-card");
->
-> cards[i].classList.remove("animate");
->
-> buttons[i].classList.remove("active-btn");
->
-> }
->
-> //adding the active-btn class to the clicked button
->
-> e.target.classList.add("active-btn");
->
-> // picking the right card and make it visible
->
-> cards[index].classList.remove("hidden-card");
->
-> cards[index].classList.add("animate");
->
-> }
->
-> buttons.forEach((button, index) => {
->
-> button.addEventListener("click", (e) => {
->
-> showCard(e, index);
->
-> });
->
-> });
+```
+const buttons = document.querySelectorAll(".btn");
+const cards = document.querySelectorAll(".card");
+function showCard(e, index) {
+//adds the hidden-city class to all city element and removes the
+active-btn class from all buttons
+for (let i = 0; i < cards.length; i++) {
+cards[i].classList.add("hidden-card");
+cards[i].classList.remove("animate");
+buttons[i].classList.remove("active-btn");
+}
+//adding the active-btn class to the clicked button
+e.target.classList.add("active-btn");
+// picking the right card and make it visible
+cards[index].classList.remove("hidden-card");
+cards[index].classList.add("animate");
+}
+buttons.forEach((button, index) => {
+button.addEventListener("click", (e) => {
+showCard(e, index);
+});
+});
+```
 
-# 2 CSS and JavaScript Slideshow Templates
+### 2 CSS and JavaScript Slideshow Templates
 
-Template #1:
+### Template #1:
 
-Slideshow That Progresses Manually
+### Slideshow That Progresses Manually
 
-## HTML
+#### HTML
 
-> <!DOCTYPE html>
+```
+<!DOCTYPE html>
 >
-> <html lang="en">
+<html lang="en">
 >
-> <head>
+<head>
 >
-> <link rel="stylesheet" href="style.css" />
+<link rel="stylesheet" href="style.css" />
 >
-> </head>
+</head>
 >
-> <body>
+<body>
 >
-> <div class="carousel">
+<div class="carousel">
 >
-> <!-- Photo 1 -->
+<!-- Photo 1 -->
 >
-> <div class="card">
+<div class="card">
 >
-> <img src="./img/1.jpeg" alt="New York" class="" />
+<img src="./img/1.jpeg" alt="New York" class="" />
 >
-> <p>1/4</p>
+<p>1/4</p>
 >
-> </div>
+</div>
 >
-> <!-- Photo 2 -->
+<!-- Photo 2 -->
 >
-> <div class="card hidden-card">
+<div class="card hidden-card">
 >
-> <img src="./img/2.jpeg" alt="New York" class="" />
+<img src="./img/2.jpeg" alt="New York" class="" />
 >
-> <p>2/4</p>
+<p>2/4</p>
 >
-> </div>
+</div>
 >
-> <!-- Photo 3 -->
+<!-- Photo 3 -->
 >
-> <div class="card hidden-card">
+<div class="card hidden-card">
 >
-> <img src="./img/3.jpeg" alt="New York" class="" />
+<img src="./img/3.jpeg" alt="New York" class="" />
 >
-> <p>3/4</p>
+<p>3/4</p>
 >
-> </div>
+</div>
 >
-> <!-- Photo 4 -->
+<!-- Photo 4 -->
 >
-> <div class="card hidden-card">
+<div class="card hidden-card">
 >
-> <img src="./img/4.jpeg" alt="New York" class="" />
+<img src="./img/4.jpeg" alt="New York" class="" />
 >
-> <p>4/4</p>
+<p>4/4</p>
 >
-> </div>
+</div>
 >
-> <div class="navigation">
+<div class="navigation">
 >
-> <button class="prev nav-btn"><</button>
+<button class="prev nav-btn"><</button>
 >
-> <button class="next nav-btn">></button>
+<button class="next nav-btn">></button>
 >
-> </div>
+</div>
 >
-> </div>
+</div>
 >
-> </body>
+</body>
 >
-> <script src="index.js"></script>
+<script src="index.js"></script>
 >
-> </html>
-
-## CSS
+</html>
+```
 
-> @import
-> url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
->
-> * {
->
-> padding: 0;
->
-> margin: 0;
->
-> box-sizing: border-box;
->
-> font-family: "DynaPuff", cursive, sans-serif;
->
-> }
->
-> html,
->
-> body {
->
-> display: flex;
->
-> align-items: center;
->
-> justify-content: center;
->
-> align-items: center;
->
-> width: 100vw;
->
-> height: 100vh;
->
-> background-color: #3c3c3c;
->
-> }
->
-> .carousel {
->
-> width: 80%;
->
-> height: 75vh;
->
-> position: relative;
->
-> display: block;
->
-> transition: all 400ms ease;
->
-> }
->
-> .card {
->
-> display: block;
->
-> height: 100%;
->
-> width: 100%;
->
-> }
->
-> .card p {
->
-> position: absolute;
->
-> bottom: 12%;
->
-> left: 50%;
->
-> transform: translate(-50%);
->
-> text-align: center;
->
-> color: #fafafa;
->
-> font-size: 3.5rem;
->
-> }
->
-> .card img {
->
-> width: 100%;
->
-> height: 100%;
->
-> image-rendering: optimizeQuality;
->
-> transition: all 0.3s ease;
->
-> border: 8px solid white;
->
-> }
->
-> .hidden-card {
->
-> display: none;
->
-> }
->
-> .carousel img {
->
-> width: 100%;
->
-> transition: all 0.3s ease;
->
-> border: 8px solid white;
->
-> }
->
-> .navigation .prev {
->
-> position: absolute;
->
-> z-index: 10;
->
-> font-size: 25px;
->
-> top: 40%;
->
-> left: 20px;
->
-> font-weight: 700;
->
-> }
->
-> .navigation .next {
->
-> right: 20px;
->
-> position: absolute;
->
-> font-size: 25px;
->
-> z-index: 10;
->
-> top: 40%;
->
-> }
->
-> .navigation .nav-btn {
->
-> background: rgba(255, 255, 255, 0.55);
->
-> border: none;
->
-> outline: none;
->
-> cursor: pointer;
->
-> border-radius: 50%;
->
-> width: 40px;
->
-> height: 40px;
->
-> display: flex;
->
-> justify-content: center;
->
-> align-items: center;
->
-> padding: 10px;
->
-> box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
->
-> }
->
-> .navigation .nav-btn:hover {
->
-> background: white;
->
-> }
+#### CSS
 
-## JavaScript
+```
+@import
+url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "DynaPuff", cursive, sans-serif;
+}
+html,
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+background-color: #3c3c3c;
+}
+.carousel {
+width: 80%;
+height: 75vh;
+position: relative;
+display: block;
+transition: all 400ms ease;
+}
+.card {
+display: block;
+height: 100%;
+width: 100%;
+}
+.card p {
+position: absolute;
+bottom: 12%;
+left: 50%;
+transform: translate(-50%);
+text-align: center;
+color: #fafafa;
+font-size: 3.5rem;
+}
+.card img {
+width: 100%;
+height: 100%;
+image-rendering: optimizeQuality;
+transition: all 0.3s ease;
+border: 8px solid white;
+}
+.hidden-card {
+display: none;
+}
+.carousel img {
+width: 100%;
+transition: all 0.3s ease;
+border: 8px solid white;
+}
+.navigation .prev {
+position: absolute;
+z-index: 10;
+font-size: 25px;
+top: 40%;
+left: 20px;
+font-weight: 700;
+}
+.navigation .next {
+right: 20px;
+position: absolute;
+font-size: 25px;
+z-index: 10;
+top: 40%;
+}
+.navigation .nav-btn {
+background: rgba(255, 255, 255, 0.55);
+border: none;
+outline: none;
+cursor: pointer;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+.navigation .nav-btn:hover {
+background: white;
+}
+```
 
-> const prev = document.querySelector(".prev");
->
-> const next = document.querySelector(".next");
->
-> const images = document.querySelectorAll(".card");
->
-> const totalImages = images.length;
->
-> let index = 0;
->
-> prev.addEventListener("click", () => {
->
-> nextImage("prev");
->
-> });
->
-> next.addEventListener("click", () => {
->
-> nextImage("next");
->
-> });
->
-> function nextImage(direction) {
->
-> if (direction === "next") {
->
-> index++;
->
-> if (index === totalImages) {
->
-> index = 0;
->
-> }
->
-> } else if (direction === "prev") {
->
-> if (index == 0) {
->
-> index = totalImages - 1;
->
-> } else {
->
-> index--;
->
-> }
->
-> }
->
-> for (let i = 0; i < images.length; i++) {
->
-> images[i].classList.add("hidden-card");
->
-> }
->
-> images[index].classList.remove("hidden-card");
->
-> }
+#### JavaScript
 
-#  
+```
+const prev = document.querySelector(".prev");
+const next = document.querySelector(".next");
+const images = document.querySelectorAll(".card");
+const totalImages = images.length;
+let index = 0;
+prev.addEventListener("click", () => {
+nextImage("prev");
+});
+next.addEventListener("click", () => {
+nextImage("next");
+});
+function nextImage(direction) {
+if (direction === "next") {
+index++;
+if (index === totalImages) {
+index = 0;
+}
+} else if (direction === "prev") {
+if (index == 0) {
+index = totalImages - 1;
+} else {
+index--;
+}
+}
+for (let i = 0; i < images.length; i++) {
+images[i].classList.add("hidden-card");
+}
+images[index].classList.remove("hidden-card");
+}
+```
 
-# Template #2: 
+### Template #2: 
 
-# Slideshow That Progresses Automatically
+### Slideshow That Progresses Automatically
 
-### HTML
+#### HTML
 
-> <!DOCTYPE html>
->
-> <html lang="en">
->
-> <head>
->
-> <title>Document</title>
->
-> <link rel="stylesheet" href="style.css" />
->
-> </head>
->
-> <body>
->
-> <div class="carousel">
->
-> <!-- Photo 1 -->
->
-> <div class="card">
->
-> <img src="./img/1.jpeg" alt="New York" class="" />
->
-> <p>1/4</p>
->
-> </div>
->
-> <!-- Photo 2 -->
->
-> <div class="card hidden-card">
->
-> <img src="./img/2.jpeg" alt="New York" class="" />
->
-> <p>2/4</p>
->
-> </div>
->
-> <!-- Photo 3 -->
->
-> <div class="card hidden-card">
->
-> <img src="./img/3.jpeg" alt="New York" class="" />
->
-> <p>3/4</p>
->
-> </div>
->
-> <!-- Photo 4 -->
->
-> <div class="card hidden-card">
->
-> <img src="./img/4.jpeg" alt="New York" class="" />
->
-> <p>4/4</p>
->
-> </div>
->
-> <div class="navigation">
->
-> <button class="prev nav-btn"><</button>
->
-> <button class="next nav-btn">></button>
->
-> </div>
->
-> </div>
->
-> </body>
->
-> <script src="index.js"></script>
->
-> </html>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="carousel">
+<!-- Photo 1 -->
+<div class="card">
+<img src="./img/1.jpeg" alt="New York" class="" />
+<p>1/4</p>
+</div>
+<!-- Photo 2 -->
+<div class="card hidden-card">
+<img src="./img/2.jpeg" alt="New York" class="" />
+<p>2/4</p>
+</div>
+<!-- Photo 3 -->
+<div class="card hidden-card">
+<img src="./img/3.jpeg" alt="New York" class="" />
+<p>3/4</p>
+</div>
+<!-- Photo 4 -->
+<div class="card hidden-card">
+<img src="./img/4.jpeg" alt="New York" class="" />
+<p>4/4</p>
+</div>
+<div class="navigation">
+<button class="prev nav-btn"><</button>
+<button class="next nav-btn">></button>
+</div>
+</div>
+</body>
+<script src="index.js"></script>
+</html>
+```
 
-### CSS
+#### CSS
 
-> @import
-> url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
->
-> * {
->
-> padding: 0;
->
-> margin: 0;
->
-> box-sizing: border-box;
->
-> font-family: "DynaPuff", cursive, sans-serif;
->
-> }
->
-> html,
->
-> body {
->
-> display: flex;
->
-> align-items: center;
->
-> justify-content: center;
->
-> align-items: center;
->
-> width: 100vw;
->
-> height: 100vh;
->
-> background-color: #3c3c3c;
->
-> }
->
-> .carousel {
->
-> width: 80%;
->
-> height: 75vh;
->
-> position: relative;
->
-> display: block;
->
-> transition: all 400ms ease;
->
-> }
->
-> .card {
->
-> display: block;
->
-> height: 100%;
->
-> width: 100%;
->
-> }
->
-> .card p {
->
-> position: absolute;
->
-> bottom: 12%;
->
-> left: 50%;
->
-> transform: translate(-50%);
->
-> text-align: center;
->
-> color: #fafafa;
->
-> font-size: 3.5rem;
->
-> }
->
-> .card img {
->
-> width: 100%;
->
-> height: 100%;
->
-> image-rendering: optimizeQuality;
->
-> transition: all 0.3s ease;
->
-> border: 8px solid white;
->
-> }
->
-> .hidden-card {
->
-> display: none;
->
-> }
->
-> .carousel img {
->
-> width: 100%;
->
-> transition: all 0.3s ease;
->
-> border: 8px solid white;
->
-> }
->
-> .navigation .prev {
->
-> position: absolute;
->
-> z-index: 10;
->
-> font-size: 25px;
->
-> top: 40%;
->
-> left: 20px;
->
-> font-weight: 700;
->
-> }
->
-> .navigation .next {
->
-> right: 20px;
->
-> position: absolute;
->
-> font-size: 25px;
->
-> z-index: 10;
->
-> top: 40%;
->
-> }
->
-> .navigation .nav-btn {
->
-> background: rgba(255, 255, 255, 0.55);
->
-> border: none;
->
-> outline: none;
->
-> cursor: pointer;
->
-> border-radius: 50%;
->
-> width: 40px;
->
-> height: 40px;
->
-> display: flex;
->
-> justify-content: center;
->
-> align-items: center;
->
-> padding: 10px;
->
-> box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
->
-> }
->
-> .navigation .nav-btn:hover {
->
-> background: white;
->
-> }
+```
+@import
+url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "DynaPuff", cursive, sans-serif;
+}
+html,
+body {
+display: flex;
+align-items: center;
+justify-content: center;
+align-items: center;
+width: 100vw;
+height: 100vh;
+background-color: #3c3c3c;
+}
+.carousel {
+width: 80%;
+height: 75vh;
+position: relative;
+display: block;
+transition: all 400ms ease;
+}
+.card {
+display: block;
+height: 100%;
+width: 100%;
+}
+.card p {
+position: absolute;
+bottom: 12%;
+left: 50%;
+transform: translate(-50%);
+text-align: center;
+color: #fafafa;
+font-size: 3.5rem;
+}
+.card img {
+width: 100%;
+height: 100%;
+image-rendering: optimizeQuality;
+transition: all 0.3s ease;
+border: 8px solid white;
+}
+.hidden-card {
+display: none;
+}
+.carousel img {
+width: 100%;
+transition: all 0.3s ease;
+border: 8px solid white;
+}
+.navigation .prev {
+position: absolute;
+z-index: 10;
+font-size: 25px;
+top: 40%;
+left: 20px;
+font-weight: 700;
+}
+.navigation .next {
+right: 20px;
+position: absolute;
+font-size: 25px;
+z-index: 10;
+top: 40%;
+}
+.navigation .nav-btn {
+background: rgba(255, 255, 255, 0.55);
+border: none;
+outline: none;
+cursor: pointer;
+border-radius: 50%;
+width: 40px;
+height: 40px;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 10px;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+}
+.navigation .nav-btn:hover {
+background: white;
+}
+```
 
-### JavaScript
+#### JavaScript
 
-> const prev = document.querySelector(".prev");
->
-> const next = document.querySelector(".next");
->
-> const images = document.querySelectorAll(".card");
->
-> const totalImages = images.length;
->
-> let index = 0;
->
-> prev.addEventListener("click", () => {
->
-> nextImage("prev");
->
-> });
->
-> next.addEventListener("click", () => {
->
-> nextImage("next");
->
-> });
->
-> function nextImage(direction) {
->
-> if (direction === "next") {
->
-> index++;
->
-> if (index === totalImages) {
->
-> index = 0;
->
-> }
->
-> } else if (direction === "prev") {
->
-> if (index == 0) {
->
-> index = totalImages - 1;
->
-> } else {
->
-> index--;
->
-> }
->
-> }
->
-> for (let i = 0; i < images.length; i++) {
->
-> images[i].classList.add("hidden-card");
->
-> }
->
-> images[index].classList.remove("hidden-card");
->
-> }
->
-> setInterval(() => {
->
-> nextImage("next");
->
-> }, 5000);
+```
+const prev = document.querySelector(".prev");
+const next = document.querySelector(".next");
+const images = document.querySelectorAll(".card");
+const totalImages = images.length;
+let index = 0;
+prev.addEventListener("click", () => {
+nextImage("prev");
+});
+next.addEventListener("click", () => {
+nextImage("next");
+});
+function nextImage(direction) {
+if (direction === "next") {
+index++;
+if (index === totalImages) {
+index = 0;
+}
+} else if (direction === "prev") {
+if (index == 0) {
+index = totalImages - 1;
+} else {
+index--;
+}
+}
+for (let i = 0; i < images.length; i++) {
+images[i].classList.add("hidden-card");
+}
+images[index].classList.remove("hidden-card");
+}
+setInterval(() => {
+nextImage("next");
+}, 5000);
+```
 
-# 3 JavaScript onClick with CSS Templates
+### 3 JavaScript onClick with CSS Templates
 
-## Template #1: 
+### Template #1: 
 
-## Display a Hidden Element
+### Display a Hidden Element
 
-## HTML
+#### HTML
 
-> <!DOCTYPE html>
->
-> <html lang="en">
->
-> <head>
->
-> <title>Document</title>
->
-> <link rel="stylesheet" href="styles.css" />
->
-> </head>
->
-> <body>
->
-> <div class="container hidden-container">
->
-> <img src="./honolulu.jpeg" alt="Honolulu" class="img" />
->
-> <button class="fixed-btn">Toggle image</button>
->
-> </div>
->
-> <script src="index.js"></script>
->
-> </body>
->
-> </html>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="container hidden-container">
+<img src="./honolulu.jpeg" alt="Honolulu" class="img" />
+<button class="fixed-btn">Toggle image</button>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
+```
 
-## CSS
+#### CSS
 
-> @import
-> url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700|Raleway:300,400");
->
-> * {
->
-> padding: 0;
->
-> margin: 0;
->
-> box-sizing: border-box;
->
-> font-family: "DynaPuff", cursive, sans-serif;
->
-> }
->
-> body {
->
-> width: 100vw;
->
-> min-height: 100vh;
->
-> background: #fafafa;
->
-> }
->
-> .container {
->
-> height: 100vh;
->
-> width: 100%;
->
-> display: flex;
->
-> justify-content: center;
->
-> align-items: center;
->
-> position: relative;
->
-> }
->
-> .fixed-btn {
->
-> border: none;
->
-> outline: none;
->
-> background-color: #1d1d27;
->
-> color: #fafafa;
->
-> padding: 1.5rem 1rem;
->
-> font-size: 1.2rem;
->
-> position: absolute;
->
-> bottom: 10%;
->
-> left: 50%;
->
-> transform: translate(-50%);
->
-> cursor: pointer;
->
-> }
->
-> .hidden-container {
->
-> display: flex;
->
-> justify-content: center;
->
-> align-items: center;
->
-> }
->
-> .hidden-container img {
->
-> transform: translateY(-2rem);
->
-> width: 50%;
->
-> height: 70vh;
->
-> }
->
-> .hidden {
->
-> visibility: hidden;
->
-> transition: all 400ms ease;
->
-> }
+```
+@import
+url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700|Raleway:300,400");
+* {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: "DynaPuff", cursive, sans-serif;
+}
+body {
+width: 100vw;
+min-height: 100vh;
+background: #fafafa;
+}
+.container {
+height: 100vh;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+}
+.fixed-btn {
+border: none;
+outline: none;
+background-color: #1d1d27;
+color: #fafafa;
+padding: 1.5rem 1rem;
+font-size: 1.2rem;
+position: absolute;
+bottom: 10%;
+left: 50%;
+transform: translate(-50%);
+cursor: pointer;
+}
+.hidden-container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.hidden-container img {
+transform: translateY(-2rem);
+width: 50%;
+height: 70vh;
+}
+.hidden {
+visibility: hidden;
+transition: all 400ms ease;
+}
+```
 
-## JavaScript
+#### JavaScript
 
-> const toggleBtn = document.querySelector(".fixed-btn");
->
-> const hiddenImage = document.querySelector(".hidden-container img");
->
-> toggleBtn.addEventListener("click", (e) => {
->
-> hiddenImage.classList.toggle("hidden");
->
-> });
+```
+const toggleBtn = document.querySelector(".fixed-btn");
+const hiddenImage = document.querySelector(".hidden-container img");
+toggleBtn.addEventListener("click", (e) => {
+hiddenImage.classList.toggle("hidden");
+});
+```
 
-Template #2:
+### Template #2:
 
-Update a Field
+### Update a Field
 
-## HTML
+#### HTML
 
-> <!DOCTYPE html>
->
-> <html lang="en">
->
-> <head>
->
-> <title>Document</title>
->
-> <link rel="stylesheet" href="styles.css" />
->
-> </head>
->
-> <body>
->
-> <div class="container">
->
-> <textarea id="text-area" cols="50" rows="20"> </textarea>
->
-> <button class="fill-btn">Fill text</button>
->
-> </div>
->
-> <script src="index.js"></script>
->
-> </body>
->
-> </html>
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Document</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="container">
+<textarea id="text-area" cols="50" rows="20"> </textarea>
+<button class="fill-btn">Fill text</button>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
+```
 
-## CSS
+#### CSS
 
 ```
 @import
@@ -3730,398 +3132,245 @@ body {
 }
 
 .fixed-btn {
-border: none;
-
- outline: none;
->
-background-color: #1d1d27;
->
-color: #fafafa;
->
-padding: 1.5rem 1rem;
->
-font-size: 1.2rem;
->
-position: absolute;
->
-bottom: 10%;
->
-left: 50%;
->
-transform: translate(-50%);
->
-cursor: pointer;
->
+  border: none;
+  outline: none;
+  background-color: #1d1d27;
+  color: #fafafa;
+  padding: 1.5rem 1rem;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
 }
->
 textarea {
->
-color: #1d1d27;
->
-font-size: 1.5rem;
->
-line-height: 2rem;
->
-letter-spacing: 0.1rem;
->
+  color: #1d1d27;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  letter-spacing: 0.1rem;
 }
 
-## JavaScript
+#### JavaScript
 
+```
 const fillBtn = document.querySelector(".fill-btn");
->
 const textarea = document.getElementById("text-area");
->
 fillBtn.addEventListener("click", () ={
->
 textarea.innerHTML =
->
 "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic
 a vel perspiciatis asperiores, repudiandae rem nemo velit doloribus
 odit fugit, sed recusandae, minus voluptatem possimus autem molestias
 non aperiamnnLorem ipsum dolor sit amet consectetur adipisicing
 elit. Magnam hic a vel perspiciatis asperiores";
->
 });
+```
 
-#  
+### Template #3:
 
-# Template #3:
+### Change Colors or Other Visual Effects
 
-# Change Colors or Other Visual Effects
+#### HTML
 
-## HTML
-
+```
 <!DOCTYPE html>
->
 <html lang="en">
->
 <head>
->
 <title>Document</title>
->
 <link rel="stylesheet" href="styles.css" />
->
 </head>
->
 <body>
->
 <div class="container bg-container">
->
 <button class="fixed-btn">New Color!</button>
->
 </div>
->
 <script src="index.js"></script>
->
 </body>
->
 </html>
+```
 
-## CSS
+#### CSS
 
+```
 @import
 url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700|Raleway:300,400");
->
 * {
->
 padding: 0;
->
 margin: 0;
->
 box-sizing: border-box;
->
 font-family: "DynaPuff", cursive, sans-serif;
->
 }
->
 body {
->
 width: 100vw;
->
 min-height: 100vh;
->
 background: #fafafa;
->
 }
->
 .container {
->
 height: 100vh;
->
 width: 100%;
->
 display: flex;
->
 justify-content: center;
->
 align-items: center;
->
 position: relative;
->
 }
->
 .fixed-btn {
->
 border: none;
->
 outline: none;
->
 background-color: #1d1d27;
->
 color: #fafafa;
->
 padding: 1.5rem 1rem;
->
 font-size: 1.2rem;
->
 position: absolute;
->
 bottom: 10%;
->
 left: 50%;
->
 transform: translate(-50%);
->
 }
->
 .bg-container {
->
 background-color: #4343f5;
->
 }
+```
 
-## JavaScript
+#### JavaScript
 
+```
 const toggleBtn = document.querySelector(".bg-container
 .fixed-btn");
->
 const container = document.querySelector(".bg-container");
->
 const colors = [
->
 "#cdb4db",
->
 "#ffc8dd",
->
 "#ffafcc",
->
 "#bde0fe",
->
 "#a2d2ff",
->
 "#00b4d8",
->
 "#6f2dbd",
->
 "#f27059",
->
 ];
->
 toggleBtn.addEventListener("click", (e) ={
->
 e.preventDefault();
->
 container.style.backgroundColor =
->
 colors[Math.floor(Math.random() * colors.length)];
->
 });
+```
 
 []{#mbneroay4a95 .anchor}HTML Video & Audio
 
-Templates
+### Templates
 
 <!-- Basic video element -->
 
+```
 <video src="./media/example-video.mp4"></video>
->
 <!-- Features standard controls to user -->
->
 <video controls src="./media/example-video.mp4"></video>
->
 <!-- Width and height in pixels -->
->
 <video width="500" height="500"
 src="./media/example-video.mp4"></video>
->
 <!-- Autoplay video -->
->
 <video autoplay src="./media/example-video.mp4"></video>
->
 <style>
->
 /* Stylized video element */
->
 video { /* Give video elements a red border */
->
 border-width: 5px;
->
 border-color: red;
->
 }
->
 </style>
->
 <!-- Audio element with controls -->
->
 <audio controls src="./media/example-audio.mp3"></audio>
->
 <style>
->
 /* Stylized audio element. Note: Only applicable if controls are
 visible */
->
 audio {
->
 border-width: 5px;
->
 border-radius: green;
->
 }
->
 </style>
+```
 
-CSS Background Template
+### CSS Background Template
 
-[]{#kf5yg3bekuan .anchor}Template
-
-![](./images/image025.jpg){width="4.33365157480315in"
-height="2.656444663167104in"}
+## Template
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<p align="center" width="100%">
+<img src="./images/image025.jpg"
+  style="width:40%"
+  title=""
+  alt="." />
+</p>
+<!-- ![](./images/image025.jpg){width="4.33365157480315in" height="2.656444663167104in"} -->
 
 [[Example]](https://www.pexels.com/photo/assorted-color-striped-illustration-310452/)
 
+```
 /* Set entire page background to a color */
->
 body {
->
 background: red;
->
 }
->
 /* To an image URL */
->
 body {
->
 background: url("./images/image.png");
->
 }
->
 /*multiple backgrounds*/
->
 body {
->
 background-image: url(rose.png), url(Android-Logo.png);
->
 background-position: right bottom, left top;
->
 background-repeat: no-repeat, repeat;
->
 }
->
 /* Transparent background */
->
 body {
->
 background: green;
->
 opacity: 0.5; /* 50% opacity */
->
 }
->
 /* Position image in center */
->
 body {
->
 background: center url("./images/image.png");
->
 }
->
 /* Repeat an image */
->
 body {
->
 background: repeat-x url("./images/image.png");
->
 }
->
 /* Don't repeat an image */
->
 body {
->
 background: no-repeat url("./images/image.png");
->
 }
->
 /* Set background for particular element with id 'my-element' */
->
 #my-element {
->
 background: red;
->
 }
->
 /* background-blend-mode */
->
 body{
->
 background:
->
 radial-gradient(
->
 red 40px,
->
 transparent 0,
->
 transparent 100%
->
 ),
->
 radial-gradient(
->
 green 40px,
->
 transparent 0,
->
 transparent 100%
->
 ),
->
 radial-gradient(
->
 blue 40px,
->
 transparent 0,
->
 transparent 100%
->
 ), snow;
->
 background-blend-mode: multiply;
->
 background-size: 100px 100px;
->
 background-position: 0 0, 33px 33px, -33px -33px;
->
 }
->
 /* This demonstrates how a background image filter can be added */
->
 body{
->
 background-image:
->
 conic-gradient(red, white, green, yellow, brown),
->
 url(rose.png);
->
 background-blend-mode: color-burn;
->
 }
+```
 
 []{#glidakkzttia .anchor}CSS Gradient
 
-Template
+### Template
 
 ```
 <div class="container">
@@ -4139,7 +3388,6 @@ Template
 <style>
 .left-gradient {
 background: linear-gradient(to left, red, green);
-
 }
 /* Right-to-left gradient */
 .right-gradient {
@@ -4183,7 +3431,7 @@ brown);
 </style>[]{#s2ijn6yz6ci5 .anchor}
 ```
 
-CSS overflow Template
+### CSS overflow Template
 
 ```
 <div class="container">
@@ -4369,7 +3617,7 @@ overflow-wrap: break-word;
 </style>
 ```
 
-[]{#5raj5iklwqr1 .anchor}CSS Animation Template
+### CSS Animation Template
 
 ```
 <html>
