@@ -4123,625 +4123,342 @@ background-blend-mode: color-burn;
 
 Template
 
+```
 <div class="container">
-
 <div class="square left-gradient"></div>
->
 <div class="square right-gradient"></div>
->
 <div class="square diagonal-gradient"></div>
->
 <div class="square angled-gradient"></div>
->
 <div class="square rainbow-gradient"></div>
->
 <div class="square transparent-gradient"></div>
->
 <div class="square repeating-gradient"></div>
->
 <div class="square conic-gradient"></div>
->
 <div class="square radial-gradient"></div>
->
 <div class="square multiple-gradient"></div>
->
 </div>
->
 <style>
->
 .left-gradient {
->
 background: linear-gradient(to left, red, green);
->
+
 }
->
 /* Right-to-left gradient */
->
 .right-gradient {
->
 background: linear-gradient(to right, red, green);
->
 }
->
 /* Diagonal gradient */
->
 .diagonal-gradient {
->
 background: linear-gradient(to top left, red, green);
->
 }
->
 /* Angled (33 degree) gradient */
->
 .angled-gradient {
->
 background: linear-gradient(33deg, red, green);
->
 }
->
 /* Multi-colored gradient */
->
 .rainbow-gradient {
->
 background: linear-gradient(to left, red, orange, yellow, green, blue,
 indigo, violet);
->
 }
->
 /* Partially transparent gradient */
->
 .transparent-gradient {
->
 background: linear-gradient(to left, red, green);
->
 opacity: 0.5;
->
 }
->
 .radial-gradient {
->
 background: radial-gradient(white, yellow, brown);
->
 }
->
 .conic-gradient {
->
 background: conic-gradient(red, white, green, yellow, brown);
->
 height: 400px;
->
 width: 400px;
->
 }
->
 .repeating-gradient {
->
 height: 400px;
->
 background-image: repeating-linear-gradient(white, yellow, brown);
->
 }
->
 .multiple-gradient {
->
 background-image:
->
 linear-gradient(to left, red, green), radial-gradient(white, yellow,
 brown);
->
 }
->
 </style>[]{#s2ijn6yz6ci5 .anchor}
->
-CSS overflow
->
-Template
+```
 
+CSS overflow Template
+
+```
 <div class="container">
-
 <div class="square hidden-overflow">
->
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 eiusmod
->
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 veniam,
->
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
 commodo
->
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit
 esse
->
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
 cupidatat non
->
 proident, sunt in culpa qui officia deserunt mollit anim id est
 laborum.
->
 </div>
->
 <div class="square scroll-overflow">
->
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 eiusmod
->
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 veniam,
->
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
 commodo
->
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit
 esse
->
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
 cupidatat non
->
 proident, sunt in culpa qui officia deserunt mollit anim id est
 laborum.
->
 </div>
->
 <div class="square auto-overflow">
->
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 eiusmod
->
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 veniam,
->
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
 commodo
->
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit
 esse
->
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
 cupidatat non
->
 proident, sunt in culpa qui officia deserunt mollit anim id est
 laborum.
->
 </div>
->
 <div class="square visible-overflow">
->
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 eiusmod
->
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 veniam,
->
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
 commodo
->
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit
 esse
->
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
 cupidatat non
-
 proident, sunt in culpa qui officia deserunt mollit anim id est
 laborum.
-
 </div>
-
 <div class="square visible-overflow-x">
-
 <ol>
-
 <li>John</li>
-
 <li>Doe</li>
->
 <li>Mike</li>
->
 <li>Gee</li>
->
 <li>Stella</li>
->
 <li>Jane</li>
->
 <li>Mary</li>
->
 <li>Lawrence</li>
->
 <li>Nancy</li>
->
 <li>Kennedy</li>
->
 <li>Stanely</li>
->
 </ol>
->
 </div>
->
 <div class="square hidden-overflow-y">
->
 <ol>
->
 <li>John</li>
->
 <li>Doe</li>
->
 <li>Mike</li>
->
 <li>Gee</li>
->
 <li>Stella</li>
->
 <li>Jane</li>
->
 <li>Mary</li>
->
 <li>Lawrence</li>
->
 <li>Nancy</li>
->
 <li>Kennedy</li>
->
 <li>Stanely</li>
->
 </ol>
->
 </div>
->
 </div>
->
 <div class="container" style="margin-top: 10%">
->
 <div class="rectangle overflow-wrap-normal">
->
 This is the longest English word,
 Pneumonoultramicroscopicsilicovolcanoconiosis
->
 </div>
->
 <div class="rectangle overflow-wrap-break">
->
 This is the longest English word,
 Pneumonoultramicroscopicsilicovolcanoconiosis
->
 </div>
->
 <div class="rectangle-max-height visible-overflow-x">
->
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
 eiusmod
->
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
 veniam,
->
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
 commodo
->
 consequat. Duis aute irure dolor in reprehenderit in voluptate velit
 esse
->
 cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
 cupidatat non
->
 proident, sunt in culpa qui officia deserunt mollit anim id est
 laborum.
->
 </div>
->
-</div>
->
+/div>
 <div class="rectangle-max-width visible-overflow">
->
 This is the longest English word,
 Pneumonoultramicroscopicsilicovolcanoconiosis
->
 </div>
->
 <style type="text/css">
->
 /* visible overflow */
->
 .container {
->
 display: flex;
->
 }
->
 .square {
->
 width: 150px;
->
 height: 150px;
->
 background-color: lightblue;
->
 margin: 1em;
->
 display: flex;
->
 flex-direction: column;
->
 justify-content: center;
->
 align-items: center;
->
 }
->
 .rectangle {
->
 width: 300px;
->
 height: 50px;
->
 background-color: lightblue;
->
 margin: 1em;
->
 justify-content: center;
->
 align-items: center;
->
 }
->
 .rectangle-max-height{
->
 width: 250px;
->
 max-height: 50px;
->
 background-color: lightblue;
->
 margin: 1em;
->
 justify-content: center;
->
 align-items: center;
->
 }
->
 .rectangle-max-width{
->
 max-width: 350px;
->
 max-height: 20px;
->
 background-color: lightblue;
->
 margin: 1em;
->
 }
->
 .visible-overflow {
->
 overflow: visible;
->
 }
->
 .hidden-overflow {
->
 overflow: hidden;
->
 }
->
 .scroll-overflow {
->
 overflow: scroll;
->
 }
->
 .auto-overflow {
->
 overflow: auto;
->
 }
->
 .visible-overflow-x {
->
 overflow-x: visible;
->
 }
->
 .visible-overflow-y {
->
 overflow-y: visible;
->
 }
->
 .hidden-overflow-y {
->
 overflow-y: hidden;
->
 }
->
 .overflow-wrap-normal {
->
 overflow-wrap: normal;
->
 }
->
 .overflow-wrap-break {
->
 overflow-wrap: break-word;
->
 }
->
 </style>
+```
 
 []{#5raj5iklwqr1 .anchor}CSS Animation Template
 
+```
 <html>
-
 <body>
->
 <div class="container">
->
 <!-- Example 1: Changing Color -->
->
 <div class="green-square green-red-alternate"></div>
->
 <!-- Example 2: Moving across the screen -->
->
 <div class="black-circle vertical-alternate-fast"></div>
->
 <!-- Example 3: On hover, changing color-->
->
 <div class="green-rounded-square color-transition"></div>
->
 </div>
->
 </body>
->
 </html>
->
 <style>
->
 .container {
->
 display: flex;
->
 flex-direction: row;
->
 overflow: hidden;
->
 }
->
 /* Example 1: Changing Color */
->
 .green-square {
->
 width: 200px;
->
 height: 200px;
->
 background-color: green;
->
 }
->
 .green-red-alternate {
->
 animation-name: to-red;
->
 animation-duration: 3s;
->
 animation-iteration-count: infinite;
->
 animation-direction: alternate;
->
 }
->
 @keyframes to-red {
->
 from {
->
 background-color: green;
->
 }
->
 to {
->
 background-color: red;
->
 }
->
 }
->
 /* Example 2: Moving across the screen */
->
 .black-circle {
->
 width: 200px;
->
 height: 200px;
->
 border-radius: 100%;
->
 background-color: black;
->
 }
->
 /* Example 2a: Moving horizontal slowly */
->
 .horizontal-alternate {
->
 animation-name: left-to-right;
->
 animation-duration: 3s;
->
 animation-iteration-count: infinite;
->
 animation-direction: alternate;
->
 }
->
 @keyframes left-to-right {
->
 from {
->
 margin-left: 0%;
->
 }
->
 to {
->
 margin-left: 100%;
->
 }
->
 }
->
 /* Example 2b: Moving vertically quickly */
->
 .vertical-alternate-fast {
->
 animation-name: top-to-bottom;
->
 animation-duration: 1s;
->
 animation-iteration-count: infinite;
->
 animation-direction: alternate;
->
 }
->
 @keyframes top-to-bottom {
->
 from {
->
 margin-top: 0%;
->
 }
->
 to {
->
 margin-top: 100%;
->
 }
->
 }
->
 /* Example 3: Animation on hover */
->
 .green-rounded-square {
->
 width: 200px;
->
 height: 200px;
->
 background-color: green;
->
 border-radius: 1em;
->
 }
->
 .color-transition:hover {
->
 animation-name: to-red;
->
 animation-duration: 3s;
->
 animation-iteration-count: infinite;
->
 animation-direction: alternate;
->
 }
->
 </style>
+```
