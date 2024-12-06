@@ -1,19 +1,13 @@
-![](./images/media/image1.png){width="3.5in"
-height="3.5833333333333335in"}
+![](./images/image001.png){width="3.5in" height="3.5833333333333335in"}
+# 35+ Coding Templates for HTML, CSS,
+# and JavaScript
 
-+-----------------------------------------------------------------------+
-| # 35+ Coding Templates for HTML, CSS,                                 |
-|                                                                       |
-| # and JavaScript                                                      |
-+-----------------------------------------------------------------------+
+![](./images/media/image1.png){width="3.5in" height="3.5833333333333335in"}
+![](./images/media/image1.png){width="3.5in" height="3.5833333333333335in"}
 
-![](./images/media/image1.png){width="3.5in"
-height="3.5833333333333335in"}![](./images/media/image1.png){width="3.5in"
-height="3.5833333333333335in"}You can edit your own version in one of
-two ways:
+You can edit your own version in one of two ways:
 
 1.  Edit this version to fit your needs
-
 2.  Go to "File" \> "Download As" \> "Microsoft Word" to Download
 
 How to Use This Template
@@ -29,27 +23,20 @@ a more optimized site, you're encouraged to do so.
 
 Jump to a Template
 
-  ----------------------------------------------------------------- ------------------------------------------------------------------
-  [[Navigation Menus & Breadcrumbs                                  [[Button Transition
-  Templates]{.underline}](#example-1)                               Templates]{.underline}](#button-transition-templates)
+  [[Navigation Menus & Breadcrumbs
+  [[Button Transition Templates]](#example-1)
+  Templates]](#button-transition-templates)
 
-  [[Web Form & Search Bar Templates]{.underline}](#template-1)      [[Lightbox Modal Element
-                                                                    Templates]{.underline}](#lightbox-modal-element)
-
-  [[Tooltip Templates]{.underline}](#kdb634vxe28v)                  [[Progress Bar Templates]{.underline}](#progress-bar-templates)
-
-  [[CSS Accordion Templates]{.underline}](#css-accordian-templates) [[CSS Effects Templates]{.underline}](#qjxam0b6i3lz)
-
-  [[CSS Tab Navigation                                              [[CSS and JavaScript Slideshow
-  Templates]{.underline}](#css-tab-navigation-templates)            Templates]{.underline}](#css-and-javascript-slideshow-templates)
-
-  [[JavaScript onClick With CSS                                     [[HTML Video & Audio Template]{.underline}](#mbneroay4a95)
-  Templates]{.underline}](#javascript-onclick-with-css-templates)   
-
-  [[CSS Background Template]{.underline}](#kf5yg3bekuan)            [[CSS Gradient Templates]{.underline}](#glidakkzttia)
-
-  [[CSS Overflow Templates]{.underline}](#s2ijn6yz6ci5)             [[CSS Animation Template]{.underline}](#5raj5iklwqr1)
-  ----------------------------------------------------------------- ------------------------------------------------------------------
+  [[Web Form & Search Bar Templates]](#template-1)      [[Lightbox Modal Element Templates]](#lightbox-modal-element)
+  [[Tooltip Templates]](#kdb634vxe28v)                  [[Progress Bar Templates]](#progress-bar-templates)
+  [[CSS Accordion Templates]](#css-accordian-templates) [[CSS Effects Templates]](#qjxam0b6i3lz)
+  [[CSS Tab Navigation]]                                [[CSS and JavaScript Slideshow Templates]](#css-tab-navigation-templates)
+  []Templates]](#css-and-javascript-slideshow-templates)
+  [[JavaScript onClick With CSS]] 
+  [[HTML Video & Audio Template]](#mbneroay4a95)
+  [[Templates]](#javascript-onclick-with-css-templates)
+  [[CSS Background Template]](#kf5yg3bekuan)            [[CSS Gradient Templates]](#glidakkzttia)
+  [[CSS Overflow Templates]](#s2ijn6yz6ci5)             [[CSS Animation Template]](#5raj5iklwqr1)
 
 ### Example #1
 
@@ -58,25 +45,18 @@ height="0.4479166666666667in"}
 
 ## The HTML
 
-> \<div class=\"container\"\>
->
-> \<nav\>
->
-> \<ul class=\"bar\"\>
->
-> \<li\>\<a href=\"#\"\>Home\</a\>\</li\>
->
-> \<li\>\<a href=\"#\"\>About\</a\>\</li\>
->
-> \<li\>\<a href=\"#\" class=\"active\"\>Contact\</a\>\</li\>
->
-> \<li\>\<a href=\"#\"\>Careers\</a\>\</li\>
->
-> \</ul\>
->
-> \</nav\>
->
-> \</div\>
+```
+<div class="container">
+<nav\>
+<ul class="bar">
+<li\><a href="#">Home</a></li>
+<li\><a href="#">About</a></li>
+<li\><a href="#" class="active">Contact</a></li>
+<li\><a href="#">Careers\</a\>\</li\>
+</ul\>
+</nav\>
+</div\>
+```
 
 ## The CSS
 
@@ -4729,7 +4709,7 @@ CSS Background Template
 ![](./images/media/image25.jpg){width="4.33365157480315in"
 height="2.656444663167104in"}
 
-[[Example]{.underline}](https://www.pexels.com/photo/assorted-color-striped-illustration-310452/)
+[[Example]](https://www.pexels.com/photo/assorted-color-striped-illustration-310452/)
 
 > /\* Set entire page background to a color \*/
 >
