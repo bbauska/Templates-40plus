@@ -1143,14 +1143,15 @@ visibility: visible;
 }
 ```
 
-### Example #3
+<h3 id="#ex20">Example #4</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. bottom of the tooltip ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image020.png"
+  style="width:3.01in height:1.19in"
   style="width:30%"
-  title=""
-  alt="." />
+  title="This is the bottom of the tooltip"
+  alt="This is the bottom of the tooltip." />
 </p>
 <!-- ![](./images/image020.png){width="3.0104166666666665in" height="1.1979166666666667in"} -->
 
@@ -1201,16 +1202,15 @@ visibility: visible;
 }
 ```
 
-### Example #4
+<h3 id="#ex21">Example #4</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. left of tooltip ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. left of tooltip ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image021.png"
   style="width:3.39in height:0.75in"
   title="This is the left of the tooltip"
   alt="This is the left of the tooltip." />
 </p>
-<!-- ![](./images/image021.png){width="3.3958333333333335in" height="0.75in"} -->
 
 #### HTML
 
@@ -1260,16 +1260,17 @@ body {
 }
 ```
 
-## 2 Progress Bar Templates
-
-### Example #1
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 22.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2 id="progressBarTemplate">2 Progress Bar Templates</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3 id="ex22">Example #22</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. example progress bar purple/white ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image022.png"
-  style="width:50%"
-  title=""
-  alt="." />
+  style="width:5.375in height:0.875in;"
+  title="Progress bar example; purple and white"
+  alt="Progress bar example; purple and white." />
 </p>
 <!-- ![](./images/image022.png){width="5.375in" height="0.875in"} -->
 
@@ -1305,12 +1306,12 @@ background-color: purple;
 ```
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 23.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~ 23. progress bar template, multi-colored ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image023.png"
-  style="width:50%"
-  title=""
-  alt="." />
+  style="width:5.0in height:0.7in;"
+  title="Progress bar example, multi-colored"
+  alt="Progress bar example, multi-colored." />
 </p>
 <!-- ![](./images/image023.png){width="5.083333333333333in" height="0.7395833333333334in"} -->
 
@@ -1318,12 +1319,12 @@ background-color: purple;
 <progress class="second" value="80" max="100"></progress>
 ```
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. progress bar template, ii ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image024.png"
-  style="width:50%"
-  title=""
-  alt="." />
+  style="width:5.0in height:0.7in;"
+  title="Progress bar example, multi-colored, #2"
+  alt="Progress bar example, multi-colored, #2." />
 </p>
 <!-- ![](./images/image024.png){width="5.0in" height="0.78125in"} -->
 
