@@ -471,44 +471,32 @@ Jump to a Template
 #### HTML
 
 ```
- <form>
- <div class="search">
- <input type="text" placeholder="Search products" />
- <button type="submit">Search</button>
- </div>
- <div class="align-center bottom">
- <div class="checkbox-block">
- <input
- type="checkbox"
- name="companies_included"
- id="companies_included"
- />
- <label for="companies_included"
- >Also search companies
- </label>
- </div>
- <div class="inline-flex radio-block">
- <span>Location</span>
- <div class="inline-flex align-center">
- <input
- type="radio"
- name="location"
- value="Your location"
- id="your_location"
- />
- <label for="your_location"> Your location </label>
- </div>
- <div class="inline-flex align-center">
-<input
-type="radio"
-name="location"
-value="Worldwide"
-id="worldwide"
-/>
-<label for="worldwide"Worldwide </label>
-</div>
-</div>
-</div>
+<form>
+  <div class="search">
+    <input type="text" placeholder="Search products" />
+    <button type="submit">Search</button>
+  </div>
+  <div class="align-center bottom">
+    <div class="checkbox-block">
+      <input
+        type="checkbox"
+        name="companies_included"
+        id="companies_included"
+      />
+      <label for="companies_included">Also search companies</label>
+    </div>
+    <div class="inline-flex radio-block">
+      <span>Location</span>
+      <div class="inline-flex align-center">
+        <input type="radio" name="location" value="Your location" id="your_location"/>
+        <label for="your_location"> Your location </label>
+      </div>
+      <div class="inline-flex align-center">
+        <input type="radio" name="location" value="Worldwide" id="worldwide" />
+        <label for="worldwide"Worldwide </label>
+      </div>
+    </div>
+  </div>
 </form>
 ```
 
@@ -516,52 +504,52 @@ id="worldwide"
 
 ```
 .align-center {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 .inline-flex {
-display: inline-flex;
+  display: inline-flex;
 }
 form {
-padding: 20px 0;
-max-width: 500px;
-border-bottom: 1px solid #ccc;
+  padding: 20px 0;
+  max-width: 500px;
+  border-bottom: 1px solid #ccc;
 }
 .search {
-display: flex;
-outline: 1px solid #cccccc;
+  display: flex;
+  outline: 1px solid #cccccc;
 }
 .search > input {
-flex-grow: 1;
-border: 0;
-padding: 0.5rem 1rem;
-font-size: 1rem;
+  flex-grow: 1;
+  border: 0;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
 }
 .search > input:focus {
-outline: none;
+  outline: none;
 }
 .search > button {
-padding: 0.8rem 2rem;
-border: 0;
-cursor: pointer;
-font-size: 1rem;
-background: #cccccc;
+  padding: 0.8rem 2rem;
+  border: 0;
+  cursor: pointer;
+  font-size: 1rem;
+  background: #cccccc;
 }
 .bottom {
-margin-top: 10px;
-font-size: 14px;
+  margin-top: 10px;
+  font-size: 14px;
 }
 .checkbox-block {
-display: flex;
-align-items: center;
-margin-right: 30px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
 }
 .checkbox-block input {
-margin-right: 5px;
-cursor: pointer;
+  margin-right: 5px;
+  cursor: pointer;
 }
 .radio-block input {
-margin: 0 3px 0 10px;
+  margin: 0 3px 0 10px;
 }
 ```
 
@@ -580,33 +568,33 @@ margin: 0 3px 0 10px;
 
 ```
 <form>
-<div class="input-group">
- <label for="fname">Firstname</label>
- <input
- id="fname"
- name="fname"
- placeholder="Enter firstname"
- required="required"
- />
- </div>
- <div class="input-group">
- <label for="lname">Lastname</label>
- <input
- id="lname"
- name="lname"
- placeholder="Enter lastname"
-required="required"
- />
-</div>
- <div class="input-group">
- <label for="email">Email</label>
- <input
- id="email"
- type="email"
- name="email"
- placeholder="Enter your email"
- />
- </div>
+  <div class="input-group">
+    <label for="fname">Firstname</label>
+    <input
+    id="fname"
+    name="fname"
+    placeholder="Enter firstname"
+    required="required"
+    />
+  </div>
+  <div class="input-group">
+    <label for="lname">Lastname</label>
+    <input
+      id="lname"
+      name="lname"
+      placeholder="Enter lastname"
+      required="required"
+      />
+  </div>
+  <div class="input-group">
+  <label for="email">Email</label>
+  <input
+  id="email"
+  type="email"
+  name="email"
+  placeholder="Enter your email"
+  />
+  </div>
  <div class="input-group">
  <label>Country</label>
  <select name="country" id="country" required="required">
