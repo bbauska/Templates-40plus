@@ -2470,88 +2470,88 @@ images[index].classList.remove("hidden-card");
 @import
 url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap");
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: "DynaPuff", cursive, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DynaPuff", cursive, sans-serif;
 }
 html,
 body {
-display: flex;
-align-items: center;
-justify-content: center;
-align-items: center;
-width: 100vw;
-height: 100vh;
-background-color: #3c3c3c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #3c3c3c;
 }
 .carousel {
-width: 80%;
-height: 75vh;
-position: relative;
-display: block;
-transition: all 400ms ease;
+  width: 80%;
+  height: 75vh;
+  position: relative;
+  display: block;
+  transition: all 400ms ease;
 }
 .card {
-display: block;
-height: 100%;
-width: 100%;
+  display: block;
+  height: 100%;
+  width: 100%;
 }
 .card p {
-position: absolute;
-bottom: 12%;
-left: 50%;
-transform: translate(-50%);
-text-align: center;
-color: #fafafa;
-font-size: 3.5rem;
+  position: absolute;
+  bottom: 12%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  color: #fafafa;
+  font-size: 3.5rem;
 }
 .card img {
-width: 100%;
-height: 100%;
-image-rendering: optimizeQuality;
-transition: all 0.3s ease;
-border: 8px solid white;
+  width: 100%;
+  height: 100%;
+  image-rendering: optimizeQuality;
+  transition: all 0.3s ease;
+  border: 8px solid white;
 }
 .hidden-card {
-display: none;
+  display: none;
 }
 .carousel img {
-width: 100%;
-transition: all 0.3s ease;
-border: 8px solid white;
+  width: 100%;
+  transition: all 0.3s ease;
+  border: 8px solid white;
 }
 .navigation .prev {
-position: absolute;
-z-index: 10;
-font-size: 25px;
-top: 40%;
-left: 20px;
-font-weight: 700;
+  position: absolute;
+  z-index: 10;
+  font-size: 25px;
+  top: 40%;
+  left: 20px;
+  font-weight: 700;
 }
 .navigation .next {
-right: 20px;
-position: absolute;
-font-size: 25px;
-z-index: 10;
-top: 40%;
+  right: 20px;
+  position: absolute;
+  font-size: 25px;
+  z-index: 10;
+  top: 40%;
 }
 .navigation .nav-btn {
-background: rgba(255, 255, 255, 0.55);
-border: none;
-outline: none;
-cursor: pointer;
-border-radius: 50%;
-width: 40px;
-height: 40px;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 10px;
-box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 0.55);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
 }
 .navigation .nav-btn:hover {
-background: white;
+  background: white;
 }
 ```
 
@@ -2564,31 +2564,33 @@ const images = document.querySelectorAll(".card");
 const totalImages = images.length;
 let index = 0;
 prev.addEventListener("click", () => {
-nextImage("prev");
+  nextImage("prev");
 });
 next.addEventListener("click", () => {
-nextImage("next");
+  nextImage("next");
 });
+
 function nextImage(direction) {
-if (direction === "next") {
-index++;
-if (index === totalImages) {
-index = 0;
+  if (direction === "next") {
+    index++;
+    if (index === totalImages) {
+      index = 0;
+    }
+  } else if (direction === "prev") {
+    if (index == 0) {
+      index = totalImages - 1;
+    } else {
+      index--;
+    }
+  }
+  for (let i = 0; i < images.length; i++) {
+    images[i].classList.add("hidden-card");
+  }
+  images[index].classList.remove("hidden-card");
 }
-} else if (direction === "prev") {
-if (index == 0) {
-index = totalImages - 1;
-} else {
-index--;
-}
-}
-for (let i = 0; i < images.length; i++) {
-images[i].classList.add("hidden-card");
-}
-images[index].classList.remove("hidden-card");
-}
+
 setInterval(() => {
-nextImage("next");
+  nextImage("next");
 }, 5000);
 ```
 
@@ -2602,18 +2604,18 @@ nextImage("next");
 
 ```
 <!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Document</title>
-<link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-<div class="container hidden-container">
-<img src="./honolulu.jpeg" alt="Honolulu" class="img" />
-<button class="fixed-btn">Toggle image</button>
-</div>
-<script src="index.js"></script>
-</body>
+  <html lang="en">
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container hidden-container">
+      <img src="./honolulu.jpeg" alt="Honolulu" class="img" />
+      <button class="fixed-btn">Toggle image</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
 ```
 
@@ -2623,50 +2625,50 @@ nextImage("next");
 @import
 url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700|Raleway:300,400");
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: "DynaPuff", cursive, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DynaPuff", cursive, sans-serif;
 }
 body {
-width: 100vw;
-min-height: 100vh;
-background: #fafafa;
+  width: 100vw;
+  min-height: 100vh;
+  background: #fafafa;
 }
 .container {
-height: 100vh;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 .fixed-btn {
-border: none;
-outline: none;
-background-color: #1d1d27;
-color: #fafafa;
-padding: 1.5rem 1rem;
-font-size: 1.2rem;
-position: absolute;
-bottom: 10%;
-left: 50%;
-transform: translate(-50%);
-cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #1d1d27;
+  color: #fafafa;
+  padding: 1.5rem 1rem;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
+  cursor: pointer;
 }
 .hidden-container {
-display: flex;
-justify-content: center;
-align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .hidden-container img {
-transform: translateY(-2rem);
-width: 50%;
-height: 70vh;
+  transform: translateY(-2rem);
+  width: 50%;
+  height: 70vh;
 }
 .hidden {
-visibility: hidden;
-transition: all 400ms ease;
+  visibility: hidden;
+  transition: all 400ms ease;
 }
 ```
 
@@ -2689,17 +2691,17 @@ hiddenImage.classList.toggle("hidden");
 ```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Document</title>
-<link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-<div class="container">
-<textarea id="text-area" cols="50" rows="20"> </textarea>
-<button class="fill-btn">Fill text</button>
-</div>
-<script src="index.js"></script>
-</body>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <textarea id="text-area" cols="50" rows="20"> </textarea>
+      <button class="fill-btn">Fill text</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
 ```
 
@@ -2756,12 +2758,12 @@ textarea {
 const fillBtn = document.querySelector(".fill-btn");
 const textarea = document.getElementById("text-area");
 fillBtn.addEventListener("click", () ={
-textarea.innerHTML =
-"Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic
-a vel perspiciatis asperiores, repudiandae rem nemo velit doloribus
-odit fugit, sed recusandae, minus voluptatem possimus autem molestias
-non aperiamnnLorem ipsum dolor sit amet consectetur adipisicing
-elit. Magnam hic a vel perspiciatis asperiores";
+  textarea.innerHTML =
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam hic
+  a vel perspiciatis asperiores, repudiandae rem nemo velit doloribus
+  odit fugit, sed recusandae, minus voluptatem possimus autem molestias
+  non aperiamnnLorem ipsum dolor sit amet consectetur adipisicing
+  elit. Magnam hic a vel perspiciatis asperiores";
 });
 ```
 
@@ -2774,16 +2776,16 @@ elit. Magnam hic a vel perspiciatis asperiores";
 ```
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<title>Document</title>
-<link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-<div class="container bg-container">
-<button class="fixed-btn">New Color!</button>
-</div>
-<script src="index.js"></script>
-</body>
+  <head>
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container bg-container">
+      <button class="fixed-btn">New Color!</button>
+    </div>
+    <script src="index.js"></script>
+  </body>
 </html>
 ```
 
@@ -2793,38 +2795,38 @@ elit. Magnam hic a vel perspiciatis asperiores";
 @import
 url("https://fonts.googleapis.com/css2?family=DynaPuff&display=swap::400,700|Raleway:300,400");
 * {
-padding: 0;
-margin: 0;
-box-sizing: border-box;
-font-family: "DynaPuff", cursive, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DynaPuff", cursive, sans-serif;
 }
 body {
-width: 100vw;
-min-height: 100vh;
-background: #fafafa;
+  width: 100vw;
+  min-height: 100vh;
+  background: #fafafa;
 }
 .container {
-height: 100vh;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 position: relative;
 }
 .fixed-btn {
-border: none;
-outline: none;
-background-color: #1d1d27;
-color: #fafafa;
-padding: 1.5rem 1rem;
-font-size: 1.2rem;
-position: absolute;
-bottom: 10%;
-left: 50%;
-transform: translate(-50%);
+  border: none;
+  outline: none;
+  background-color: #1d1d27;
+  color: #fafafa;
+  padding: 1.5rem 1rem;
+  font-size: 1.2rem;
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%);
 }
 .bg-container {
-background-color: #4343f5;
+  background-color: #4343f5;
 }
 ```
 
@@ -2835,19 +2837,19 @@ const toggleBtn = document.querySelector(".bg-container
 .fixed-btn");
 const container = document.querySelector(".bg-container");
 const colors = [
-"#cdb4db",
-"#ffc8dd",
-"#ffafcc",
-"#bde0fe",
-"#a2d2ff",
-"#00b4d8",
-"#6f2dbd",
-"#f27059",
+  "#cdb4db",
+  "#ffc8dd",
+  "#ffafcc",
+  "#bde0fe",
+  "#a2d2ff",
+  "#00b4d8",
+  "#6f2dbd",
+  "#f27059",
 ];
 toggleBtn.addEventListener("click", (e) ={
-e.preventDefault();
-container.style.backgroundColor =
-colors[Math.floor(Math.random() * colors.length)];
+  e.preventDefault();
+  container.style.backgroundColor =
+  colors[Math.floor(Math.random() * colors.length)];
 });
 ```
 
@@ -2863,25 +2865,25 @@ colors[Math.floor(Math.random() * colors.length)];
 <video controls src="./media/example-video.mp4"></video>
 <!-- Width and height in pixels -->
 <video width="500" height="500"
-src="./media/example-video.mp4"></video>
+  src="./media/example-video.mp4"></video>
 <!-- Autoplay video -->
 <video autoplay src="./media/example-video.mp4"></video>
 <style>
-/* Stylized video element */
-video { /* Give video elements a red border */
-border-width: 5px;
-border-color: red;
-}
+  /* Stylized video element */
+  video { /* Give video elements a red border */
+    border-width: 5px;
+    border-color: red;
+  }
 </style>
 <!-- Audio element with controls -->
 <audio controls src="./media/example-audio.mp3"></audio>
 <style>
-/* Stylized audio element. Note: Only applicable if controls are
-visible */
-audio {
-border-width: 5px;
-border-radius: green;
-}
+  /* Stylized audio element. Note: Only applicable if controls are
+  visible */
+  audio {
+    border-width: 5px;
+    border-radius: green;
+  }
 </style>
 ```
 
@@ -2907,63 +2909,64 @@ background: red;
 }
 /* To an image URL */
 body {
-background: url("./images/image.png");
+  background: url("./images/image.png");
 }
 /*multiple backgrounds*/
 body {
-background-image: url(rose.png), url(Android-Logo.png);
-background-position: right bottom, left top;
-background-repeat: no-repeat, repeat;
+  background-image: url(rose.png), url(Android-Logo.png);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
 }
 /* Transparent background */
 body {
-background: green;
-opacity: 0.5; /* 50% opacity */
+  background: green;
+  opacity: 0.5; /* 50% opacity */
 }
 /* Position image in center */
 body {
-background: center url("./images/image.png");
+  background: center url("./images/image.png");
 }
 /* Repeat an image */
 body {
-background: repeat-x url("./images/image.png");
+  background: repeat-x url("./images/image.png");
 }
 /* Don't repeat an image */
 body {
-background: no-repeat url("./images/image.png");
+  background: no-repeat url("./images/image.png");
 }
 /* Set background for particular element with id 'my-element' */
 #my-element {
-background: red;
+  background: red;
 }
 /* background-blend-mode */
 body{
-background:
-radial-gradient(
-red 40px,
-transparent 0,
-transparent 100%
-),
-radial-gradient(
-green 40px,
-transparent 0,
-transparent 100%
-),
-radial-gradient(
-blue 40px,
-transparent 0,
-transparent 100%
-), snow;
-background-blend-mode: multiply;
-background-size: 100px 100px;
-background-position: 0 0, 33px 33px, -33px -33px;
+  background:
+  radial-gradient(
+    red 40px,
+    transparent 0,
+    transparent 100%
+  ),
+  radial-gradient(
+    green 40px,
+    transparent 0,
+    transparent 100%
+  ),
+  radial-gradient(
+    blue 40px,
+    transparent 0,
+    transparent 100%
+  ), snow;
+    background-blend-mode: multiply;
+    background-size: 100px 100px;
+    background-position: 0 0, 33px 33px, -33px -33px;
 }
+
 /* This demonstrates how a background image filter can be added */
 body{
-background-image:
-conic-gradient(red, white, green, yellow, brown),
-url(rose.png);
-background-blend-mode: color-burn;
+  background-image:
+  conic-gradient(red, white, green, yellow, brown),
+  url(rose.png);
+  background-blend-mode: color-burn;
 }
 ```
 
@@ -2973,60 +2976,60 @@ background-blend-mode: color-burn;
 
 ```
 <div class="container">
-<div class="square left-gradient"></div>
-<div class="square right-gradient"></div>
-<div class="square diagonal-gradient"></div>
-<div class="square angled-gradient"></div>
-<div class="square rainbow-gradient"></div>
-<div class="square transparent-gradient"></div>
-<div class="square repeating-gradient"></div>
-<div class="square conic-gradient"></div>
-<div class="square radial-gradient"></div>
-<div class="square multiple-gradient"></div>
+  <div class="square left-gradient"></div>
+  <div class="square right-gradient"></div>
+  <div class="square diagonal-gradient"></div>
+  <div class="square angled-gradient"></div>
+  <div class="square rainbow-gradient"></div>
+  <div class="square transparent-gradient"></div>
+  <div class="square repeating-gradient"></div>
+  <div class="square conic-gradient"></div>
+  <div class="square radial-gradient"></div>
+  <div class="square multiple-gradient"></div>
 </div>
 <style>
-.left-gradient {
-background: linear-gradient(to left, red, green);
-}
-/* Right-to-left gradient */
-.right-gradient {
-background: linear-gradient(to right, red, green);
-}
-/* Diagonal gradient */
-.diagonal-gradient {
-background: linear-gradient(to top left, red, green);
-}
-/* Angled (33 degree) gradient */
-.angled-gradient {
-background: linear-gradient(33deg, red, green);
-}
-/* Multi-colored gradient */
-.rainbow-gradient {
-background: linear-gradient(to left, red, orange, yellow, green, blue,
-indigo, violet);
-}
-/* Partially transparent gradient */
-.transparent-gradient {
-background: linear-gradient(to left, red, green);
-opacity: 0.5;
-}
-.radial-gradient {
-background: radial-gradient(white, yellow, brown);
-}
-.conic-gradient {
-background: conic-gradient(red, white, green, yellow, brown);
-height: 400px;
-width: 400px;
-}
-.repeating-gradient {
-height: 400px;
-background-image: repeating-linear-gradient(white, yellow, brown);
-}
-.multiple-gradient {
-background-image:
-linear-gradient(to left, red, green), radial-gradient(white, yellow,
-brown);
-}
+  .left-gradient {
+    background: linear-gradient(to left, red, green);
+  }
+  /* Right-to-left gradient */
+  .right-gradient {
+    background: linear-gradient(to right, red, green);
+  }
+  /* Diagonal gradient */
+  .diagonal-gradient {
+    background: linear-gradient(to top left, red, green);
+  }
+  /* Angled (33 degree) gradient */
+  .angled-gradient {
+    background: linear-gradient(33deg, red, green);
+  }
+  /* Multi-colored gradient */
+  .rainbow-gradient {
+    background: linear-gradient(to left, red, orange, yellow, green, blue,
+    indigo, violet);
+  }
+  /* Partially transparent gradient */
+  .transparent-gradient {
+    background: linear-gradient(to left, red, green);
+    opacity: 0.5;
+  }
+  .radial-gradient {
+    background: radial-gradient(white, yellow, brown);
+  }
+  .conic-gradient {
+    background: conic-gradient(red, white, green, yellow, brown);
+    height: 400px;
+    width: 400px;
+  }
+  .repeating-gradient {
+    height: 400px;
+    background-image: repeating-linear-gradient(white, yellow, brown);
+  }
+  .multiple-gradient {
+    background-image:
+    linear-gradient(to left, red, green), radial-gradient(white, yellow,
+    brown);
+  }
 </style>[]{#s2ijn6yz6ci5 .anchor}
 ```
 
@@ -3034,185 +3037,155 @@ brown);
 
 ```
 <div class="container">
-<div class="square hidden-overflow">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est
-laborum.
-</div>
-<div class="square scroll-overflow">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est
-laborum.
-</div>
-<div class="square auto-overflow">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est
-laborum.
-</div>
-<div class="square visible-overflow">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est
-laborum.
-</div>
-<div class="square visible-overflow-x">
-<ol>
-<li>John</li>
-<li>Doe</li>
-<li>Mike</li>
-<li>Gee</li>
-<li>Stella</li>
-<li>Jane</li>
-<li>Mary</li>
-<li>Lawrence</li>
-<li>Nancy</li>
-<li>Kennedy</li>
-<li>Stanely</li>
-</ol>
-</div>
-<div class="square hidden-overflow-y">
-<ol>
-<li>John</li>
-<li>Doe</li>
-<li>Mike</li>
-<li>Gee</li>
-<li>Stella</li>
-<li>Jane</li>
-<li>Mary</li>
-<li>Lawrence</li>
-<li>Nancy</li>
-<li>Kennedy</li>
-<li>Stanely</li>
-</ol>
-</div>
+  <div class="square hidden-overflow">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+  <div class="square scroll-overflow">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+  <div class="square auto-overflow">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+  <div class="square visible-overflow">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
+  <div class="square visible-overflow-x">
+    <ol>
+      <li>John</li>
+      <li>Doe</li>
+      <li>Mike</li>
+      <li>Gee</li>
+      <li>Stella</li>
+      <li>Jane</li>
+      <li>Mary</li>
+      <li>Lawrence</li>
+      <li>Nancy</li>
+      <li>Kennedy</li>
+      <li>Stanely</li>
+    </ol>
+  </div>
+  <div class="square hidden-overflow-y">
+    <ol>
+      <li>John</li>
+      <li>Doe</li>
+      <li>Mike</li>
+      <li>Gee</li>
+      <li>Stella</li>
+      <li>Jane</li>
+      <li>Mary</li>
+      <li>Lawrence</li>
+      <li>Nancy</li>
+      <li>Kennedy</li>
+      <li>Stanely</li>
+    </ol>
+  </div>
 </div>
 <div class="container" style="margin-top: 10%">
-<div class="rectangle overflow-wrap-normal">
-This is the longest English word,
-Pneumonoultramicroscopicsilicovolcanoconiosis
+  <div class="rectangle overflow-wrap-normal">
+    This is the longest English word,
+    Pneumonoultramicroscopicsilicovolcanoconiosis
+  </div>
+  <div class="rectangle overflow-wrap-break">
+    This is the longest English word,
+    Pneumonoultramicroscopicsilicovolcanoconiosis
+  </div>
+  <div class="rectangle-max-height visible-overflow-x">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+  </div>
 </div>
-<div class="rectangle overflow-wrap-break">
-This is the longest English word,
-Pneumonoultramicroscopicsilicovolcanoconiosis
-</div>
-<div class="rectangle-max-height visible-overflow-x">
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est
-laborum.
-</div>
-/div>
 <div class="rectangle-max-width visible-overflow">
-This is the longest English word,
-Pneumonoultramicroscopicsilicovolcanoconiosis
+  This is the longest English word,
+  Pneumonoultramicroscopicsilicovolcanoconiosis
 </div>
 <style type="text/css">
-/* visible overflow */
-.container {
-display: flex;
-}
-.square {
-width: 150px;
-height: 150px;
-background-color: lightblue;
-margin: 1em;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-.rectangle {
-width: 300px;
-height: 50px;
-background-color: lightblue;
-margin: 1em;
-justify-content: center;
-align-items: center;
-}
-.rectangle-max-height{
-width: 250px;
-max-height: 50px;
-background-color: lightblue;
-margin: 1em;
-justify-content: center;
-align-items: center;
-}
-.rectangle-max-width{
-max-width: 350px;
-max-height: 20px;
-background-color: lightblue;
-margin: 1em;
-}
-.visible-overflow {
-overflow: visible;
-}
-.hidden-overflow {
-overflow: hidden;
-}
-.scroll-overflow {
-overflow: scroll;
-}
-.auto-overflow {
-overflow: auto;
-}
-.visible-overflow-x {
-overflow-x: visible;
-}
-.visible-overflow-y {
-overflow-y: visible;
-}
-.hidden-overflow-y {
-overflow-y: hidden;
-}
-.overflow-wrap-normal {
-overflow-wrap: normal;
-}
-.overflow-wrap-break {
-overflow-wrap: break-word;
-}
+  /* visible overflow */
+  .container {
+    display: flex;
+  }
+  .square {
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .rectangle {
+    width: 300px;
+    height: 50px;
+    background-color: lightblue;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+  .rectangle-max-height{
+    width: 250px;
+    max-height: 50px;
+    background-color: lightblue;
+    margin: 1em;
+    justify-content: center;
+    align-items: center;
+  }
+  .rectangle-max-width{
+    max-width: 350px;
+    max-height: 20px;
+    background-color: lightblue;
+    margin: 1em;
+  }
+  .visible-overflow {
+    overflow: visible;
+  }
+  .hidden-overflow {
+    overflow: hidden;
+  }
+  .scroll-overflow {
+    overflow: scroll;
+  }
+  .auto-overflow {
+    overflow: auto;
+  }
+  .visible-overflow-x {
+    overflow-x: visible;
+  }
+  .visible-overflow-y {
+    overflow-y: visible;
+  }
+  .hidden-overflow-y {
+    overflow-y: hidden;
+  }
+  .overflow-wrap-normal {
+    overflow-wrap: normal;
+  }
+  .overflow-wrap-break {
+    overflow-wrap: break-word;
+  }
 </style>
 ```
 
@@ -3220,92 +3193,92 @@ overflow-wrap: break-word;
 
 ```
 <html>
-<body>
-<div class="container">
-<!-- Example 1: Changing Color -->
-<div class="green-square green-red-alternate"></div>
-<!-- Example 2: Moving across the screen -->
-<div class="black-circle vertical-alternate-fast"></div>
-<!-- Example 3: On hover, changing color-->
-<div class="green-rounded-square color-transition"></div>
-</div>
-</body>
+  <body>
+    <div class="container">
+      <!-- Example 1: Changing Color -->
+      <div class="green-square green-red-alternate"></div>
+      <!-- Example 2: Moving across the screen -->
+      <div class="black-circle vertical-alternate-fast"></div>
+      <!-- Example 3: On hover, changing color-->
+      <div class="green-rounded-square color-transition"></div>
+    </div>
+  </body>
 </html>
 <style>
-.container {
-display: flex;
-flex-direction: row;
-overflow: hidden;
-}
-/* Example 1: Changing Color */
-.green-square {
-width: 200px;
-height: 200px;
-background-color: green;
-}
-.green-red-alternate {
-animation-name: to-red;
-animation-duration: 3s;
-animation-iteration-count: infinite;
-animation-direction: alternate;
-}
-@keyframes to-red {
-from {
-background-color: green;
-}
-to {
-background-color: red;
-}
+  .container {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+  }
+  /* Example 1: Changing Color */
+  .green-square {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+  }
+  .green-red-alternate {
+    animation-name: to-red;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes to-red {
+  from {
+    background-color: green;
+  }
+  to {
+    background-color: red;
+  }
 }
 /* Example 2: Moving across the screen */
 .black-circle {
-width: 200px;
-height: 200px;
-border-radius: 100%;
-background-color: black;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  background-color: black;
 }
 /* Example 2a: Moving horizontal slowly */
 .horizontal-alternate {
-animation-name: left-to-right;
-animation-duration: 3s;
-animation-iteration-count: infinite;
-animation-direction: alternate;
+  animation-name: left-to-right;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 @keyframes left-to-right {
-from {
-margin-left: 0%;
-}
-to {
-margin-left: 100%;
-}
+  from {
+    margin-left: 0%;
+  }
+  to {
+    margin-left: 100%;
+  }
 }
 /* Example 2b: Moving vertically quickly */
 .vertical-alternate-fast {
-animation-name: top-to-bottom;
-animation-duration: 1s;
-animation-iteration-count: infinite;
-animation-direction: alternate;
+  animation-name: top-to-bottom;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 @keyframes top-to-bottom {
-from {
-margin-top: 0%;
-}
-to {
-margin-top: 100%;
-}
+  from {
+    margin-top: 0%;
+  }
+  to {
+    margin-top: 100%;
+  }
 }
 /* Example 3: Animation on hover */
 .green-rounded-square {
-width: 200px;
-height: 200px;
-background-color: green;
-border-radius: 1em;
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  border-radius: 1em;
 }
 .color-transition:hover {
-animation-name: to-red;
-animation-duration: 3s;
-animation-iteration-count: infinite;
-animation-direction: alternate;
+  animation-name: to-red;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
 </style>
 ```
