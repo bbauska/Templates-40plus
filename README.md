@@ -1,13 +1,6 @@
 <h1>Templates-40plus</h1>
 <p>40+ example templates in HTML, CSS and JavaScript.</p>
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. green blob (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
-<img src="./images/image001.png"
-  style="width:25%"
-  title="Green blob"
-  alt="Green blob." />
-</p>
+
 
 <p>You can edit your own version in one of two ways:</p>
 <ol type="1">
