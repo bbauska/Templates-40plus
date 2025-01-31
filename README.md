@@ -1,33 +1,30 @@
-# Templates-40plus
-40+ example templates in HTML, CSS and JavaScript.
-# 35+ Coding Templates for HTML, CSS,
-# and JavaScript
+<h1>Templates-40plus</h1>
+<p>40+ example templates in HTML, CSS and JavaScript.</p>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 01. green blob (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image001.png"
-  style="width:35%"
-  title=""
-  alt="." />
+  style="width:25%"
+  title="Green blob"
+  alt="Green blob." />
 </p>
-<!-- ![](./images/image001.png){width="3.5in" height="3.5833333333333335in"} -->
-<!-- ![](./images/image001.png){width="3.5in" height="3.5833333333333335in"} -->
 
-You can edit your own version in one of two ways:
+<p>You can edit your own version in one of two ways:</p>
+<ol type="1">
+  <li>Edit this version to fit your needs</li>
+  <li>Go to "File" "Download As" "Microsoft Word" to Download</li>
+</ol>
 
-1.  Edit this version to fit your needs
-2.  Go to "File" "Download As" "Microsoft Word" to Download
+<p><b>How to Use This Template.</b></p>
 
-How to Use This Template
+<p>Copy and paste these code templates into your CMS for the desired
+product on your website.</p>
 
-Copy and paste these code templates into your CMS for the desired
-product on your website.
+<p>Remember that you can adjust these to suit your needs. These templates
+are designed to be completely customizable.</p>
 
-Remember that you can adjust these to suit your needs. These templates
-are designed to be completely customizable.
-
-As such, if you need to make any adjustments to these code snippets for
-a more optimized site, you're encouraged to do so.
+<p>As such, if you need to make any adjustments to these code snippets for
+a more optimized site, you're encouraged to do so.</p>
 
 Jump to a Template
 
@@ -1206,12 +1203,12 @@ visibility: visible;
 
 ### Example #4
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. left of tooltip ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
 <img src="./images/image021.png"
-  style="width:30%"
-  title=""
-  alt="." />
+  style="width:3.39in height:0.75in"
+  title="This is the left of the tooltip"
+  alt="This is the left of the tooltip." />
 </p>
 <!-- ![](./images/image021.png){width="3.3958333333333335in" height="0.75in"} -->
 
