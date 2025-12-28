@@ -10,40 +10,45 @@
 
 <p><b>How to Use This Template.</b></p>
 
-<p>Copy and paste these code templates into your CMS for the desired
-product on your website.</p>
+<p>Copy and paste these code templates into your CMS for the desired product on your website.</p>
 
-<p>Remember that you can adjust these to suit your needs. These templates
-are designed to be completely customizable.</p>
+<p>Remember that you can adjust these to suit your needs. These templates are designed to be 
+completely customizable.</p>
 
-<p>As such, if you need to make any adjustments to these code snippets for
-a more optimized site, you're encouraged to do so.</p>
+<p>As such, if you need to make any adjustments to these code snippets for a more optimized site, 
+you're encouraged to do so.</p>
 
 Jump to a Template
 
   [[Navigation Menus & Breadcrumbs
   [[Button Transition Templates]](#example-1)
-  Templates]](#button-transition-templates)
+  [[Templates]](#button-transition-templates)
 
-  [[Web Form & Search Bar Templates]](#template-1)      [[Lightbox Modal Element Templates]](#lightbox-modal-element)
-  [[Tooltip Templates]](#kdb634vxe28v)                  [[Progress Bar Templates]](#progress-bar-templates)
-  [[CSS Accordion Templates]](#css-accordian-templates) [[CSS Effects Templates]](#qjxam0b6i3lz)
-  [[CSS Tab Navigation]]                                [[CSS and JavaScript Slideshow Templates]](#css-tab-navigation-templates)
+  [[Web Form & Search Bar Templates]](#template-1)
+  [[Lightbox Modal Element Templates]](#lightbox-modal-element)
+  [[Tooltip Templates]](#kdb634vxe28v)
+  [[Progress Bar Templates]](#progress-bar-templates)
+  [[CSS Accordion Templates]](#css-accordian-templates)
+  [[CSS Effects Templates]](#qjxam0b6i3lz)
+  [[CSS Tab Navigation]]
+  [[CSS and JavaScript Slideshow Templates]](#css-tab-navigation-templates)
   []Templates]](#css-and-javascript-slideshow-templates)
-  [[JavaScript onClick With CSS]] 
+  [[JavaScript onClick With CSS]]
   [[HTML Video & Audio Template]](#mbneroay4a95)
   [[Templates]](#javascript-onclick-with-css-templates)
-  [[CSS Background Template]](#kf5yg3bekuan)            [[CSS Gradient Templates]](#glidakkzttia)
-  [[CSS Overflow Templates]](#s2ijn6yz6ci5)             [[CSS Animation Template]](#5raj5iklwqr1)
+  [[CSS Background Template]](#kf5yg3bekuan)
+  [[CSS Gradient Templates]](#glidakkzttia)
+  [[CSS Overflow Templates]](#s2ijn6yz6ci5)
+  [[CSS Animation Template]](#5raj5iklwqr1)
 
 ### Example #1
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image002.png"
   style="width:65%"
-  title=""
-  alt="." />
+  title="Horizontal dropdown menu; Home, About, Contact, Careers"
+  alt="Horizontal dropdown menu; Home, About, Contact, Careers." />
 </p>
 <!-- ![](./images/image002.png){width="6.5in" height="0.4479166666666667in"} -->
 
@@ -99,7 +104,7 @@ Jump to a Template
 ### Examples #2
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image003.png"
   style="width:15%"
   title=""
@@ -160,7 +165,7 @@ Jump to a Template
 ### Third example
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image004.png"
   style="width:50%"
   title=""
@@ -247,7 +252,7 @@ Jump to a Template
 ### Fourth example
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image005.png"
   style="width:65%"
   title=""
@@ -307,7 +312,7 @@ Jump to a Template
 ### Example #1
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image006.png"
   style="width:65%"
   title=""
@@ -344,7 +349,7 @@ Jump to a Template
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07/08.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image007.png"
   style="width:25%"
   title=""
@@ -393,7 +398,7 @@ Jump to a Template
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09/10/11.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image009.png"
   style="width:20%"
   title=""
@@ -460,7 +465,7 @@ Jump to a Template
 ### Template #1
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image012.png"
   style="width:65%"
   title=""
@@ -556,7 +561,7 @@ form {
 ### Template #2
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image013.png"
   style="width:50%"
   title=""
@@ -673,7 +678,7 @@ border-radius: 5px;
 ### Template #2
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image014.png"
   style="width:30%"
   title=""
@@ -798,7 +803,7 @@ cursor: pointer;
 ### Template
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image015.png"
   style="width:50%"
   title=""
@@ -807,7 +812,7 @@ cursor: pointer;
 <!-- ![](./images/image015.png){width="5.598958880139983in" height="0.7088429571303587in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 16.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image016.png"
   style="width:50%"
   title=""
@@ -816,7 +821,7 @@ cursor: pointer;
 <!-- ![](./images/image016.png){width="5.619792213473316in" height="3.2331813210848646in"} -->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 17.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image017.png"
   style="width:50%"
   title=""
@@ -1011,7 +1016,7 @@ modalImages[prevId].classList.remove("active")
 ### Example #1
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image018.png"
   style="width:30%"
   title=""
@@ -1071,7 +1076,7 @@ visibility: visible;
 ### Example #2
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image019.png"
   style="width:40%"
   title=""
@@ -1127,7 +1132,7 @@ visibility: visible;
 <h3 id="#ex20">Example #4</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 20. bottom of the tooltip ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image020.png"
   style="width:3.01in height:1.19in"
   style="width:30%"
@@ -1186,7 +1191,7 @@ visibility: visible;
 <h3 id="#ex21">Example #4</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 21. left of tooltip ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image021.png"
   style="width:3.39in height:0.75in"
   title="This is the left of the tooltip"
@@ -1247,7 +1252,7 @@ body {
 <h3 id="ex22">Example #22</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~ 22. example progress bar purple/white ~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image022.png"
   style="width:5.375in height:0.875in;"
   title="Progress bar example; purple and white"
@@ -1288,7 +1293,7 @@ background-color: purple;
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~ 23. progress bar template, multi-colored ~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image023.png"
   style="width:5.0in height:0.7in;"
   title="Progress bar example, multi-colored"
@@ -1301,7 +1306,7 @@ background-color: purple;
 ```
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 24. progress bar template, ii ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<p align="center" width="100%">
+<p style="align:center; width:100%">
 <img src="./images/image024.png"
   style="width:5.0in height:0.7in;"
   title="Progress bar example, multi-colored, #2"
