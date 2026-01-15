@@ -1,4 +1,4 @@
-<h1>Templates-40plus</h1>
+<h1>templates-40plus</h1>
 <p>40+ example templates in HTML, CSS and JavaScript.</p>
 
 
