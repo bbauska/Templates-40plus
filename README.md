@@ -1,8 +1,10 @@
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <h1>templates-40plus</h1>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p>40+ example templates in HTML, CSS and JavaScript.</p>
 
-
 <p>You can edit your own version in one of two ways:</p>
+
 <ol type="1">
   <li>Edit this version to fit your needs</li>
   <li>Go to "File" "Download As" "Microsoft Word" to Download</li>
@@ -18,41 +20,43 @@ completely customizable.</p>
 <p>As such, if you need to make any adjustments to these code snippets for a more optimized site, 
 you're encouraged to do so.</p>
 
-Jump to a Template
-
-  [[Navigation Menus & Breadcrumbs
-  [[Button Transition Templates]](#example-1)
-  [[Templates]](#button-transition-templates)
-
-  [[Web Form & Search Bar Templates]](#template-1)
-  [[Lightbox Modal Element Templates]](#lightbox-modal-element)
-  [[Tooltip Templates]](#kdb634vxe28v)
-  [[Progress Bar Templates]](#progress-bar-templates)
-  [[CSS Accordion Templates]](#css-accordian-templates)
-  [[CSS Effects Templates]](#qjxam0b6i3lz)
-  [[CSS Tab Navigation]]
-  [[CSS and JavaScript Slideshow Templates]](#css-tab-navigation-templates)
-  []Templates]](#css-and-javascript-slideshow-templates)
-  [[JavaScript onClick With CSS]]
-  [[HTML Video & Audio Template]](#mbneroay4a95)
-  [[Templates]](#javascript-onclick-with-css-templates)
-  [[CSS Background Template]](#kf5yg3bekuan)
-  [[CSS Gradient Templates]](#glidakkzttia)
-  [[CSS Overflow Templates]](#s2ijn6yz6ci5)
-  [[CSS Animation Template]](#5raj5iklwqr1)
-
-### Example #1
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 02.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>Jump to a Template</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+
+[[Navigation Menus & Breadcrumbs]]()
+[[Button Transition Templates]](#example-1)
+[[Templates]](#button-transition-templates)
+
+[[Web Form & Search Bar Templates]](#template-1)
+[[Lightbox Modal Element Templates]](#lightbox-modal-element)
+[[Tooltip Templates]](#kdb634vxe28v)
+[[Progress Bar Templates]](#progress-bar-templates)
+[[CSS Accordion Templates]](#css-accordian-templates)
+[[CSS Effects Templates]](#qjxam0b6i3lz)
+[[CSS Tab Navigation]]
+[[CSS and JavaScript Slideshow Templates]](#css-tab-navigation-templates)
+[]Templates]](#css-and-javascript-slideshow-templates)
+[[JavaScript onClick With CSS]]
+[[HTML Video & Audio Template]](#mbneroay4a95)
+[[Templates]](#javascript-onclick-with-css-templates)
+[[CSS Background Template]](#kf5yg3bekuan)
+[[CSS Gradient Templates]](#glidakkzttia)
+[[CSS Overflow Templates]](#s2ijn6yz6ci5)
+[[CSS Animation Template]](#5raj5iklwqr1)
+
+<h3>Example #1</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~ 02. horizontal dropdown menu; 3rd active (01) ~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center; width:100%">
 <img src="./images/image002.png"
-  style="width:65%"
+  style="width:6.5in; height: 0.4479in;"
   title="Horizontal dropdown menu; Home, About, Contact, Careers"
   alt="Horizontal dropdown menu; Home, About, Contact, Careers." />
 </p>
 <!-- ![](./images/image002.png){width="6.5in" height="0.4479166666666667in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <div class="container">
@@ -67,7 +71,7 @@ Jump to a Template
 </div>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 .bar {
@@ -83,36 +87,36 @@ Jump to a Template
   width: 100px;
   border-right: 1px solid rgb(235, 177, 69);
 }
- .bar li a {
- color: black;
- width: 100%;
- height: 100%;
- display: flex;
- align-items: center;
- justify-content: center;
- text-decoration: none;
- }
- .bar li a:hover {
- background-color: rgb(235, 177, 69);
- }
- .bar li a.active {
- background-color: rgb(165, 113, 16);
- color: white;
+.bar li a {
+  color: black;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.bar li a:hover {
+  background-color: rgb(235, 177, 69);
+}
+.bar li a.active {
+  background-color: rgb(165, 113, 16);
+  color: white;
 }
 ```
 
-### Examples #2
+<h3>Examples #2</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
-<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03.  (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~ 03. vertical menu, 4th active (01) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center; width:100%">
 <img src="./images/image003.png"
-  style="width:15%"
-  title=""
-  alt="." />
+  style="width:1.7in; height: 1.7in;"
+  title="Vertical menu; Home, About, Contact, Careers; 4th active"
+  alt="Vertical menu; Home, About, Contact, Careers; 4th active." />
 </p>
 <!-- ![](./images/image003.png){width="1.7239588801399826in" height="1.7239588801399826in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <div class="container">
@@ -127,7 +131,7 @@ Jump to a Template
 </div>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 .bar {
@@ -162,7 +166,7 @@ Jump to a Template
 }
 ```
 
-### Third example
+<h3>Third example</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 04.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center; width:100%">
@@ -173,7 +177,7 @@ Jump to a Template
 </p>
 <!-- ![](./images/image004.png){width="5.947916666666667in" height="1.09375in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <div class="container">
@@ -200,7 +204,7 @@ Jump to a Template
 </div>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 * {
@@ -249,7 +253,7 @@ Jump to a Template
 }
 ```
 
-### Fourth example
+<h3>Fourth example</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 05.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center; width:100%">
@@ -260,7 +264,7 @@ Jump to a Template
 </p>
 <!-- ![](./images/image005.png){width="6.5in" height="0.5833333333333334in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <div class="container">
@@ -276,7 +280,7 @@ Jump to a Template
 </div>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 .breadcrumb {
@@ -307,9 +311,10 @@ Jump to a Template
 }
 ```
 
-## 3 Button Transition Templates
-
-### Example #1
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>3 Button Transition Templates</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Example #1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 06.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center; width:100%">
@@ -320,13 +325,13 @@ Jump to a Template
 </p>
 <!-- ![](./images/image006.png){width="6.5in" height="1.5138888888888888in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <button class="first">Hover over me</button>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 .first {
@@ -345,7 +350,7 @@ Jump to a Template
 }
 ```
 
-### Example #2
+<h3>Example #2</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 07/08.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -363,13 +368,13 @@ Jump to a Template
 <!-- ![](./images/image007.png){width="2.557292213473316in" height="1.1195516185476815in"} -->
 <!-- ![](./images/image008.png){width="4.078125546806649in" height="1.9507917760279965in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <button class="second">Click me</button>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 .second {
@@ -394,7 +399,7 @@ Jump to a Template
 }
 ```
 
-### Example #3
+<h3>Example #3</h3>
 
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 09/10/11.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
@@ -418,13 +423,13 @@ Jump to a Template
 <!-- ![](./images/image010.png){width="2.2604166666666665in" height="0.7291666666666666in"} -->
 <!-- ![](./images/image011.png){width="1.8854166666666667in" height="0.6354166666666666in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <button class="third">Hover over me</button>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 .third {
@@ -458,11 +463,12 @@ Jump to a Template
 }
 ```
 
-## 3 Web Form & Search Bar 
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>3 Web Form & Search Bar</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Templates</h3>
 
-### Templates
-
-### Template #1
+<h3>Template #1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 12.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center; width:100%">
@@ -473,7 +479,7 @@ Jump to a Template
 </p>
 <!-- ![](./images/image012.png){width="6.5in" height="1.7916666666666667in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <form>
@@ -505,7 +511,7 @@ Jump to a Template
 </form>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 .align-center {
@@ -558,7 +564,7 @@ form {
 }
 ```
 
-### Template #2
+<h3>Template #2</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 13.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center; width:100%">
@@ -569,7 +575,7 @@ form {
 </p>
 <!-- ![](./images/image013.png){width="5.0in" height="3.170138888888889in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <form>
@@ -628,7 +634,7 @@ placeholder="Optional"
 </form>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 * {
@@ -675,7 +681,7 @@ border-radius: 5px;
 }
 ```
 
-### Template #2
+<h3>Template #2</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 14.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center; width:100%">
@@ -686,7 +692,7 @@ border-radius: 5px;
 </p>
 <!-- ![](./images/image014.png){width="3.0in" height="5.776042213473316in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <form>
@@ -748,7 +754,7 @@ border-radius: 5px;
 </form>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 * {
@@ -798,9 +804,9 @@ cursor: pointer;
 }
 ```
 
-### 1 Lightbox Modal Element 
+<h3>1 Lightbox Modal Element</h3>
 
-### Template
+<h3>Template</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 15.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center; width:100%">
@@ -829,7 +835,7 @@ cursor: pointer;
 </p>
 <!-- ![](./images/image017.png){width="5.692708880139983in" height="3.270278871391076in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <div class="images">
@@ -862,7 +868,7 @@ Close
 </div>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 * {
@@ -942,7 +948,7 @@ align-items: center;
 }
 ```
 
-#### JavaScript
+<h4>JavaScript</h4>
 
 ```
 const IMAGE0 =
@@ -1013,7 +1019,7 @@ modalImages[prevId].classList.remove("active")
 
 []{#kdb634vxe28v .anchor}
 
-### Example #1
+<h3>Example #1</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 18.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center; width:100%">
@@ -1024,7 +1030,7 @@ modalImages[prevId].classList.remove("active")
 </p>
 <!-- ![](./images/image018.png){width="3.0416666666666665in" height="1.1041666666666667in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <div class="tooltip">
@@ -1033,7 +1039,7 @@ modalImages[prevId].classList.remove("active")
 </div>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 body {
@@ -1073,7 +1079,7 @@ visibility: visible;
 }
 ```
 
-### Example #2
+<h3>Example #2</h3>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 19.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p style="align:center; width:100%">
@@ -1084,7 +1090,7 @@ visibility: visible;
 </p>
 <!-- ![](./images/image019.png){width="4.0625in" height="1.03125in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <div class="tooltip">
@@ -1093,7 +1099,7 @@ visibility: visible;
 </div>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 .tooltip {
@@ -1141,7 +1147,7 @@ visibility: visible;
 </p>
 <!-- ![](./images/image020.png){width="3.0104166666666665in" height="1.1979166666666667in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <div class="tooltip">
@@ -1151,7 +1157,7 @@ visibility: visible;
 </div>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 .tooltip {
@@ -1198,7 +1204,7 @@ visibility: visible;
   alt="This is the left of the tooltip." />
 </p>
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <div class="tooltip">
@@ -1207,7 +1213,7 @@ visibility: visible;
 </div>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 body {
@@ -1260,13 +1266,13 @@ body {
 </p>
 <!-- ![](./images/image022.png){width="5.375in" height="0.875in"} -->
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <progress class="first" value="50" max="100"></progress>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 .first {
@@ -1283,9 +1289,9 @@ background-color: purple;
 }
 ```
 
-### Example #2
+<h3>Example #2</h3>
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <progress class="second" value="40" max="100"></progress>
@@ -1314,7 +1320,7 @@ background-color: purple;
 </p>
 <!-- ![](./images/image024.png){width="5.0in" height="0.78125in"} -->
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 .second {
@@ -1340,14 +1346,16 @@ background-color: purple;
 }
 ```
 
-## 2 CSS Accordian Templates
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>2 CSS Accordian Templates</h2>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h3>Example #1:</h3>
 
-### Example #1: 
+<h3>Accordion</h3>
 
-### Accordion
-### Using Only CSS and HTML
+<h3>Using Only CSS and HTML</h3>
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -1396,7 +1404,7 @@ tempore itaque quas excepturi.
 </html>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 @import
@@ -1483,13 +1491,13 @@ padding: 1rem;
 }
 ```
 
-### Example #2: 
+<h3>Example #2:</h3>
 
-### Accordion 
+<h3>Accordion</h3>
 
-### Using CSS and HTML and JavaScript
+<h3>Using CSS and HTML and JavaScript</h3>
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -1539,7 +1547,7 @@ tempore itaque quas excepturi.
 </html>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 @import
@@ -1621,7 +1629,7 @@ padding: 1rem;
 }
 ```
 
-#### JavaScript
+<h4>JavaScript</h4>
 
 ```
 const accordions = document.getElementsByClassName("tab");
@@ -1633,13 +1641,13 @@ accordion.classList.toggle("open-tab");
 }
 ```
 
-### 4 CSS Effects Templates
+<h3>4 CSS Effects Templates</h3>
 
 []{#qjxam0b6i3lz .anchor}Template #1:
 
-### Opacity
+<h3>Opacity</h3>
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -1662,7 +1670,7 @@ class="translucent"
 </html>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 *,
@@ -1699,11 +1707,11 @@ filter: opacity(35%);
 }
 ```
 
-### Template #2:
+<h3>Template #2:</h3>
 
-### Grayscale
+<h3>Grayscale</h3>
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -1726,7 +1734,7 @@ class="black-white"
 </html>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
  *,
@@ -1763,9 +1771,9 @@ filter: grayscale(100%);
 }
 ```
 
-### Template #3: 
+<h3>Template #3:</h3>
 
-### Sepia
+<h3>Sepia</h3>
 
 ```
 <!DOCTYPE html>
@@ -1788,7 +1796,7 @@ class="nineties-effect"
 </html>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 *,
@@ -1825,11 +1833,11 @@ filter: sepia(100%);
 }
 ```
 
-### Template #4: 
+<h3>Template #4:</h3>
 
-### Hover
+<h3>Hover</h3>
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -1852,7 +1860,7 @@ class="hover-effect"
 </html>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 *,
@@ -1890,14 +1898,14 @@ filter: grayscale(100%);
 }
 ```
 
-### 2 CSS Tab Navigation Templates
+<h3>2 CSS Tab Navigation Templates</h3>
 
-### Template #1:
+<h3>Template #1:</h3>
 
-### CSS Tab Navigation
-### with Animation Effects
+<h3>CSS Tab Navigation</h3>
+<h3>with Animation Effects</h3>
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -1932,7 +1940,7 @@ filter: grayscale(100%);
 </html>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 @import
@@ -1999,7 +2007,7 @@ font-size: 3.5rem;
 }
 ```
 
-#### JavaScript
+<h4>JavaScript</h4>
 
 ```
 const buttons = document.querySelectorAll(".btn");
@@ -2023,11 +2031,11 @@ showCity(e, index);
 });
 ```
 
-### Template #2: 
+<h3>Template #2:</h3>
 
-### CSS Tab Navigation with a Simple Tabbed Image Gallery
+<h3>CSS Tab Navigation with a Simple Tabbed Image Gallery</h3>
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -2098,7 +2106,7 @@ d="M11,9H13V7H11M12,20C7.59,20 4,16.41 4,12C4,7.59 7.59,4
 </html>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 @import
@@ -2208,7 +2216,7 @@ transform: translateY(0%);
 }
 ```
 
-#### JavaScript
+<h4>JavaScript</h4>
 
 ```
 const buttons = document.querySelectorAll(".btn");
@@ -2234,13 +2242,13 @@ showCard(e, index);
 });
 ```
 
-### 2 CSS and JavaScript Slideshow Templates
+<h3>2 CSS and JavaScript Slideshow Templates</h3>
 
-### Template #1:
+<h3>Template #1:</h3>
 
-### Slideshow That Progresses Manually
+<h3>Slideshow That Progresses Manually</h3>
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -2280,7 +2288,7 @@ showCard(e, index);
 </html>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 @import
@@ -2371,7 +2379,7 @@ background: white;
 }
 ```
 
-#### JavaScript
+<h4>JavaScript</h4>
 
 ```
 const prev = document.querySelector(".prev");
@@ -2405,11 +2413,11 @@ images[index].classList.remove("hidden-card");
 }
 ```
 
-### Template #2: 
+<h3>Template #2:</h3>
 
-### Slideshow That Progresses Automatically
+<h3>Slideshow That Progresses Automatically</h3>
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -2450,7 +2458,7 @@ images[index].classList.remove("hidden-card");
 </html>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 @import
@@ -2541,7 +2549,7 @@ body {
 }
 ```
 
-#### JavaScript
+<h4>JavaScript</h4>
 
 ```
 const prev = document.querySelector(".prev");
@@ -2580,13 +2588,13 @@ setInterval(() => {
 }, 5000);
 ```
 
-### 3 JavaScript onClick with CSS Templates
+<h3>3 JavaScript onClick with CSS Templates</h3>
 
-### Template #1: 
+<h3>Template #1:</h3>
 
-### Display a Hidden Element
+<h3>Display a Hidden Element</h3>
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -2605,7 +2613,7 @@ setInterval(() => {
 </html>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 @import
@@ -2658,7 +2666,7 @@ body {
 }
 ```
 
-#### JavaScript
+<h4>JavaScript</h4>
 
 ```
 const toggleBtn = document.querySelector(".fixed-btn");
@@ -2668,11 +2676,11 @@ hiddenImage.classList.toggle("hidden");
 });
 ```
 
-### Template #2:
+<h3>Template #2:</h3>
 
-### Update a Field
+<h3>Update a Field</h3>
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -2691,7 +2699,7 @@ hiddenImage.classList.toggle("hidden");
 </html>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 @import
@@ -2738,7 +2746,7 @@ textarea {
 }
 ```
 
-#### JavaScript
+<h4>JavaScript</h4>
 
 ```
 const fillBtn = document.querySelector(".fill-btn");
@@ -2753,11 +2761,11 @@ fillBtn.addEventListener("click", () ={
 });
 ```
 
-### Template #3:
+<h3>Template #3:</h3>
 
-### Change Colors or Other Visual Effects
+<h3>Change Colors or Other Visual Effects</h3>
 
-#### HTML
+<h4>HTML</h4>
 
 ```
 <!DOCTYPE html>
@@ -2775,7 +2783,7 @@ fillBtn.addEventListener("click", () ={
 </html>
 ```
 
-#### CSS
+<h4>CSS</h4>
 
 ```
 @import
@@ -2816,7 +2824,7 @@ position: relative;
 }
 ```
 
-#### JavaScript
+<h4>JavaScript</h4>
 
 ```
 const toggleBtn = document.querySelector(".bg-container
@@ -2841,7 +2849,7 @@ toggleBtn.addEventListener("click", (e) ={
 
 []{#mbneroay4a95 .anchor}HTML Video & Audio
 
-### Templates
+<h3>Templates</h3>
 
 <!-- Basic video element -->
 
@@ -2873,9 +2881,9 @@ toggleBtn.addEventListener("click", (e) ={
 </style>
 ```
 
-### CSS Background Template
-
-## Template
+<h3>CSS Background Template</h3>
+<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+<h2>Template</h2>
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 25.  (xx) ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
 <p align="center" width="100%">
@@ -2958,7 +2966,7 @@ body{
 
 []{#glidakkzttia .anchor}CSS Gradient
 
-### Template
+<h3>Template</h3>
 
 ```
 <div class="container">
@@ -3019,7 +3027,7 @@ body{
 </style>[]{#s2ijn6yz6ci5 .anchor}
 ```
 
-### CSS overflow Template
+<h3>CSS overflow Template</h3>
 
 ```
 <div class="container">
@@ -3175,7 +3183,7 @@ body{
 </style>
 ```
 
-### CSS Animation Template
+<h3>CSS Animation Template</h3>
 
 ```
 <html>
